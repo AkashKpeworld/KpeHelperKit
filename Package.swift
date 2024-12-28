@@ -8,12 +8,16 @@ let package = Package(
     products: [
         .library(
             name: "KpeHelperKit",
-            targets: ["KpeAPIHelper"]),
+            targets: ["KpeAPIHelper", "KpeRouteHelper"]),
     ],
     targets: [
         .binaryTarget(
             name: "KpeAPIHelper",
             path: "Sources/FrameWorks/KpeAPIHelper.xcframework"
+        ),
+        .binaryTarget(
+            name: "KpeRouteHelper",
+            path: "Sources/FrameWorks/KpeRouteHelper.xcframework"
         )
     ]
 )

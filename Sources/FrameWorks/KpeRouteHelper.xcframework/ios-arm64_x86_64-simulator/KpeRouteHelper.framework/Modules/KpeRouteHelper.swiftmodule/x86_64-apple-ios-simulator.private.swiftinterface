@@ -1,0 +1,25 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name KpeRouteHelper
+@_exported import KpeRouteHelper
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class AppRouter {
+  public static let shared: KpeRouteHelper.AppRouter
+  public func configure(with navigationController: UIKit.UINavigationController)
+  public func start(with initialRoute: any KpeRouteHelper.Route)
+  public func setRoot(to route: any KpeRouteHelper.Route, duration: Foundation.TimeInterval?, options: UIKit.UIView.AnimationOptions?)
+  public func push(to route: any KpeRouteHelper.Route)
+  public func pop()
+  public func pop(to route: any KpeRouteHelper.Route)
+  public func show(sheet route: any KpeRouteHelper.Route, presentationStyle: UIKit.UIModalPresentationStyle?, transitionStyle: UIKit.UIModalTransitionStyle?)
+  public func dismiss(completion: (() -> Swift.Void)?)
+  @objc deinit
+}
+public protocol Route {
+  associatedtype ViewController : UIKit.UIViewController
+  var viewController: Self.ViewController { get }
+}

@@ -1,0 +1,6 @@
+framework module KpeRouteHelper {
+  umbrella header "KpeRouteHelper.h"
+  export *
+
+  module * { export * }
+}

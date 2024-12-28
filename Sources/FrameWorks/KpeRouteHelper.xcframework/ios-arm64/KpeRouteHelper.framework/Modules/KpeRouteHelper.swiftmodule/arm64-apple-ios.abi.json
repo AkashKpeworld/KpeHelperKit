@@ -1,0 +1,451 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KpeRouteHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppRouter",
+        "printedName": "AppRouter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppRouter",
+                "printedName": "KpeRouteHelper.AppRouter",
+                "usr": "s:14KpeRouteHelper9AppRouterC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14KpeRouteHelper9AppRouterC6sharedACvpZ",
+            "mangledName": "$s14KpeRouteHelper9AppRouterC6sharedACvpZ",
+            "moduleName": "KpeRouteHelper",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppRouter",
+                    "printedName": "KpeRouteHelper.AppRouter",
+                    "usr": "s:14KpeRouteHelper9AppRouterC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14KpeRouteHelper9AppRouterC6sharedACvgZ",
+                "mangledName": "$s14KpeRouteHelper9AppRouterC6sharedACvgZ",
+                "moduleName": "KpeRouteHelper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14KpeRouteHelper9AppRouterC9configure4withySo22UINavigationControllerC_tF",
+            "mangledName": "$s14KpeRouteHelper9AppRouterC9configure4withySo22UINavigationControllerC_tF",
+            "moduleName": "KpeRouteHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Route",
+                "printedName": "any KpeRouteHelper.Route",
+                "usr": "s:14KpeRouteHelper0B0P"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14KpeRouteHelper9AppRouterC5start4withyAA0B0_p_tF",
+            "mangledName": "$s14KpeRouteHelper9AppRouterC5start4withyAA0B0_p_tF",
+            "moduleName": "KpeRouteHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRoot",
+            "printedName": "setRoot(to:duration:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Route",
+                "printedName": "any KpeRouteHelper.Route",
+                "usr": "s:14KpeRouteHelper0B0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView.AnimationOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationOptions",
+                    "printedName": "UIKit.UIView.AnimationOptions",
+                    "usr": "c:@E@UIViewAnimationOptions"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14KpeRouteHelper9AppRouterC7setRoot2to8duration7optionsyAA0B0_p_SdSgSo22UIViewAnimationOptionsVSgtF",
+            "mangledName": "$s14KpeRouteHelper9AppRouterC7setRoot2to8duration7optionsyAA0B0_p_SdSgSo22UIViewAnimationOptionsVSgtF",
+            "moduleName": "KpeRouteHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "push",
+            "printedName": "push(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Route",
+                "printedName": "any KpeRouteHelper.Route",
+                "usr": "s:14KpeRouteHelper0B0P"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14KpeRouteHelper9AppRouterC4push2toyAA0B0_p_tF",
+            "mangledName": "$s14KpeRouteHelper9AppRouterC4push2toyAA0B0_p_tF",
+            "moduleName": "KpeRouteHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pop",
+            "printedName": "pop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14KpeRouteHelper9AppRouterC3popyyF",
+            "mangledName": "$s14KpeRouteHelper9AppRouterC3popyyF",
+            "moduleName": "KpeRouteHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pop",
+            "printedName": "pop(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Route",
+                "printedName": "any KpeRouteHelper.Route",
+                "usr": "s:14KpeRouteHelper0B0P"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14KpeRouteHelper9AppRouterC3pop2toyAA0B0_p_tF",
+            "mangledName": "$s14KpeRouteHelper9AppRouterC3pop2toyAA0B0_p_tF",
+            "moduleName": "KpeRouteHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(sheet:presentationStyle:transitionStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Route",
+                "printedName": "any KpeRouteHelper.Route",
+                "usr": "s:14KpeRouteHelper0B0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIModalPresentationStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIModalPresentationStyle",
+                    "printedName": "UIKit.UIModalPresentationStyle",
+                    "usr": "c:@E@UIModalPresentationStyle"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIModalTransitionStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIModalTransitionStyle",
+                    "printedName": "UIKit.UIModalTransitionStyle",
+                    "usr": "c:@E@UIModalTransitionStyle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14KpeRouteHelper9AppRouterC4show5sheet17presentationStyle010transitionI0yAA0B0_p_So019UIModalPresentationI0VSgSo0k10TransitionI0VSgtF",
+            "mangledName": "$s14KpeRouteHelper9AppRouterC4show5sheet17presentationStyle010transitionI0yAA0B0_p_So019UIModalPresentationI0VSgSo0k10TransitionI0VSgtF",
+            "moduleName": "KpeRouteHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismiss",
+            "printedName": "dismiss(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14KpeRouteHelper9AppRouterC7dismiss10completionyyycSg_tF",
+            "mangledName": "$s14KpeRouteHelper9AppRouterC7dismiss10completionyyycSg_tF",
+            "moduleName": "KpeRouteHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14KpeRouteHelper9AppRouterC",
+        "mangledName": "$s14KpeRouteHelper9AppRouterC",
+        "moduleName": "KpeRouteHelper",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KpeRouteHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Route",
+        "printedName": "Route",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "ViewController",
+            "printedName": "ViewController",
+            "declKind": "AssociatedType",
+            "usr": "s:14KpeRouteHelper0B0P14ViewControllerQa",
+            "mangledName": "$s14KpeRouteHelper0B0P14ViewControllerQa",
+            "moduleName": "KpeRouteHelper",
+            "protocolReq": true
+          },
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.ViewController"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14KpeRouteHelper0B0P14viewController04ViewE0Qzvp",
+            "mangledName": "$s14KpeRouteHelper0B0P14viewController04ViewE0Qzvp",
+            "moduleName": "KpeRouteHelper",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.ViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14KpeRouteHelper0B0P14viewController04ViewE0Qzvg",
+                "mangledName": "$s14KpeRouteHelper0B0P14viewController04ViewE0Qzvg",
+                "moduleName": "KpeRouteHelper",
+                "genericSig": "<τ_0_0 where τ_0_0 : KpeRouteHelper.Route>",
+                "sugared_genericSig": "<Self where Self : KpeRouteHelper.Route>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14KpeRouteHelper0B0P",
+        "mangledName": "$s14KpeRouteHelper0B0P",
+        "moduleName": "KpeRouteHelper",
+        "genericSig": "<τ_0_0.ViewController : UIKit.UIViewController>",
+        "sugared_genericSig": "<Self.ViewController : UIKit.UIViewController>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
