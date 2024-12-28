@@ -1,0 +1,6 @@
+framework module KpeAPIHelper {
+  umbrella header "KpeAPIHelper.h"
+  export *
+
+  module * { export * }
+}

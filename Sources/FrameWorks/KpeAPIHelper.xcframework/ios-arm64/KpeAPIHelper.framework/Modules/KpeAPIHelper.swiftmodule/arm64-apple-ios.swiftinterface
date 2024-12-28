@@ -1,0 +1,80 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name KpeAPIHelper
+import Foundation
+@_exported import KpeAPIHelper
+import OSLog
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension Foundation.Data {
+  public mutating func append(_ string: Swift.String, encoding: Swift.String.Encoding = .utf8)
+}
+public protocol APIProtocol {
+  var method: KpeAPIHelper.APIMethod { get }
+  var baseURL: Swift.String { get }
+  var path: Swift.String { get }
+  var task: KpeAPIHelper.Request { get }
+  var header: [Swift.String : Swift.String] { get }
+}
+extension Swift.Dictionary where Key == Swift.String {
+  public var asQueryParam: [Foundation.URLQueryItem] {
+    get
+  }
+}
+extension Foundation.URLRequest {
+  public var curlString: Swift.String {
+    get
+  }
+}
+public struct MultipartRequest {
+  public let boundary: Swift.String
+  public init(boundary: Swift.String = UUID().uuidString)
+  public mutating func add(key: Swift.String, value: Swift.String)
+  public mutating func add(key: Swift.String, fileName: Swift.String, fileMimeType: Swift.String, fileData: Foundation.Data)
+  public var httpContentTypeHeadeValue: Swift.String {
+    get
+  }
+  public var httpBody: Foundation.Data {
+    get
+  }
+}
+public enum APIMethod : Swift.String {
+  case get
+  case post
+  case put
+  case patch
+  case delete
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Request {
+  case jsonEncoding(_: [Swift.String : Any]?)
+  case urlEncoding(_: [Swift.String : Any]?)
+  case queryString(_: [Swift.String : Any]?)
+  case multiPart(_: KpeAPIHelper.MultipartRequest)
+  case requestPlain
+}
+public enum APIService {
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func request(_ rout: any KpeAPIHelper.APIProtocol) async throws -> Foundation.Data
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func request<T>(_ rout: any KpeAPIHelper.APIProtocol) async throws -> T where T : Swift.Decodable, T : Swift.Encodable
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func request(_ rout: any KpeAPIHelper.APIProtocol) async throws -> [Swift.String : Any]
+  #endif
+}
+extension Swift.Encodable {
+  public var asDictionary: [Swift.String : Any]? {
+    get
+  }
+}
+extension KpeAPIHelper.APIMethod : Swift.Equatable {}
+extension KpeAPIHelper.APIMethod : Swift.Hashable {}
+extension KpeAPIHelper.APIMethod : Swift.RawRepresentable {}
