@@ -11,12 +11,12 @@ import _SwiftConcurrencyShims
   public static let shared: KpeRouteHelper.Router
   public func configure(with navigationController: UIKit.UINavigationController)
   public func start(with initialRoute: any KpeRouteHelper.Route)
-  public func setRoot(to route: any KpeRouteHelper.Route, duration: Foundation.TimeInterval?, options: UIKit.UIView.AnimationOptions?)
+  public func setRoot(to route: any KpeRouteHelper.Route, duration: Foundation.TimeInterval? = nil, options: UIKit.UIView.AnimationOptions? = nil)
   public func push(to route: any KpeRouteHelper.Route)
   public func pop()
   public func pop(to route: any KpeRouteHelper.Route)
-  public func show(sheet route: any KpeRouteHelper.Route, presentationStyle: UIKit.UIModalPresentationStyle?, transitionStyle: UIKit.UIModalTransitionStyle?)
-  public func dismiss(completion: (() -> Swift.Void)?)
+  public func show(sheet route: any KpeRouteHelper.Route, presentationStyle: UIKit.UIModalPresentationStyle? = nil, transitionStyle: UIKit.UIModalTransitionStyle? = nil)
+  public func dismiss(completion: (() -> Swift.Void)? = nil)
   @objc deinit
 }
 public protocol Route {

@@ -1,0 +1,44 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name KpePropertyWrapper
+import Foundation
+@_exported import KpePropertyWrapper
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@propertyWrapper public class OptionalInjected<Service> {
+  public var wrappedValue: Service?
+  public init(resolver: KpePropertyWrapper.Resolver = .default, tag: Swift.String? = nil)
+  @objc deinit
+}
+@propertyWrapper public struct UserDefault<T> where T : Swift.Decodable, T : Swift.Encodable {
+  public init(key: Swift.String, defaultValue: T)
+  public var wrappedValue: T {
+    get
+    set
+  }
+  public var projectedValue: KpePropertyWrapper.UserDefault<T> {
+    get
+  }
+  public func removeObject()
+}
+@propertyWrapper public class Injected<Service> {
+  public var wrappedValue: Service
+  public init(resolver: KpePropertyWrapper.Resolver = .default, tag: Swift.String? = nil)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Resolver {
+  public struct Key : Swift.Hashable {
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: KpePropertyWrapper.Resolver.Key, b: KpePropertyWrapper.Resolver.Key) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public static let `default`: KpePropertyWrapper.Resolver
+  public func register<T>(type: T.Type, tag: Swift.String? = nil, factory: @autoclosure @escaping () -> T)
+  public func resolve<T>(type: T.Type, tag: Swift.String? = nil) -> T?
+  public func unregister<T>(type: T.Type, tag: Swift.String? = nil)
+  @objc deinit
+}

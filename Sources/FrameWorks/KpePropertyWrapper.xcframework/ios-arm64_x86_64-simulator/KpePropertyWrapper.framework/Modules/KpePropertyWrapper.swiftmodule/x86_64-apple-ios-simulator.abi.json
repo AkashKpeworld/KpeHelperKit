@@ -1,0 +1,985 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KpePropertyWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OptionalInjected",
+        "printedName": "OptionalInjected",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18KpePropertyWrapper16OptionalInjectedC12wrappedValuexSgvp",
+            "mangledName": "$s18KpePropertyWrapper16OptionalInjectedC12wrappedValuexSgvp",
+            "moduleName": "KpePropertyWrapper",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KpePropertyWrapper16OptionalInjectedC12wrappedValuexSgvg",
+                "mangledName": "$s18KpePropertyWrapper16OptionalInjectedC12wrappedValuexSgvg",
+                "moduleName": "KpePropertyWrapper",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KpePropertyWrapper16OptionalInjectedC12wrappedValuexSgvs",
+                "mangledName": "$s18KpePropertyWrapper16OptionalInjectedC12wrappedValuexSgvs",
+                "moduleName": "KpePropertyWrapper",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KpePropertyWrapper16OptionalInjectedC12wrappedValuexSgvM",
+                "mangledName": "$s18KpePropertyWrapper16OptionalInjectedC12wrappedValuexSgvM",
+                "moduleName": "KpePropertyWrapper",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(resolver:tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OptionalInjected",
+                "printedName": "KpePropertyWrapper.OptionalInjected<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18KpePropertyWrapper16OptionalInjectedC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Resolver",
+                "printedName": "KpePropertyWrapper.Resolver",
+                "hasDefaultArg": true,
+                "usr": "s:18KpePropertyWrapper8ResolverC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18KpePropertyWrapper16OptionalInjectedC8resolver3tagACyxGAA8ResolverC_SSSgtcfc",
+            "mangledName": "$s18KpePropertyWrapper16OptionalInjectedC8resolver3tagACyxGAA8ResolverC_SSSgtcfc",
+            "moduleName": "KpePropertyWrapper",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Service>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18KpePropertyWrapper16OptionalInjectedC",
+        "mangledName": "$s18KpePropertyWrapper16OptionalInjectedC",
+        "moduleName": "KpePropertyWrapper",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Service>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KpePropertyWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KpePropertyWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserDefault",
+        "printedName": "UserDefault",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:defaultValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserDefault",
+                "printedName": "KpePropertyWrapper.UserDefault<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18KpePropertyWrapper11UserDefaultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18KpePropertyWrapper11UserDefaultV3key12defaultValueACyxGSS_xtcfc",
+            "mangledName": "$s18KpePropertyWrapper11UserDefaultV3key12defaultValueACyxGSS_xtcfc",
+            "moduleName": "KpePropertyWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18KpePropertyWrapper11UserDefaultV12wrappedValuexvp",
+            "mangledName": "$s18KpePropertyWrapper11UserDefaultV12wrappedValuexvp",
+            "moduleName": "KpePropertyWrapper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KpePropertyWrapper11UserDefaultV12wrappedValuexvg",
+                "mangledName": "$s18KpePropertyWrapper11UserDefaultV12wrappedValuexvg",
+                "moduleName": "KpePropertyWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KpePropertyWrapper11UserDefaultV12wrappedValuexvs",
+                "mangledName": "$s18KpePropertyWrapper11UserDefaultV12wrappedValuexvs",
+                "moduleName": "KpePropertyWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KpePropertyWrapper11UserDefaultV12wrappedValuexvM",
+                "mangledName": "$s18KpePropertyWrapper11UserDefaultV12wrappedValuexvM",
+                "moduleName": "KpePropertyWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "projectedValue",
+            "printedName": "projectedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserDefault",
+                "printedName": "KpePropertyWrapper.UserDefault<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18KpePropertyWrapper11UserDefaultV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18KpePropertyWrapper11UserDefaultV14projectedValueACyxGvp",
+            "mangledName": "$s18KpePropertyWrapper11UserDefaultV14projectedValueACyxGvp",
+            "moduleName": "KpePropertyWrapper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserDefault",
+                    "printedName": "KpePropertyWrapper.UserDefault<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:18KpePropertyWrapper11UserDefaultV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KpePropertyWrapper11UserDefaultV14projectedValueACyxGvg",
+                "mangledName": "$s18KpePropertyWrapper11UserDefaultV14projectedValueACyxGvg",
+                "moduleName": "KpePropertyWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "removeObject",
+            "printedName": "removeObject()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18KpePropertyWrapper11UserDefaultV12removeObjectyyF",
+            "mangledName": "$s18KpePropertyWrapper11UserDefaultV12removeObjectyyF",
+            "moduleName": "KpePropertyWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18KpePropertyWrapper11UserDefaultV",
+        "mangledName": "$s18KpePropertyWrapper11UserDefaultV",
+        "moduleName": "KpePropertyWrapper",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KpePropertyWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Injected",
+        "printedName": "Injected",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18KpePropertyWrapper8InjectedC12wrappedValuexvp",
+            "mangledName": "$s18KpePropertyWrapper8InjectedC12wrappedValuexvp",
+            "moduleName": "KpePropertyWrapper",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KpePropertyWrapper8InjectedC12wrappedValuexvg",
+                "mangledName": "$s18KpePropertyWrapper8InjectedC12wrappedValuexvg",
+                "moduleName": "KpePropertyWrapper",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KpePropertyWrapper8InjectedC12wrappedValuexvs",
+                "mangledName": "$s18KpePropertyWrapper8InjectedC12wrappedValuexvs",
+                "moduleName": "KpePropertyWrapper",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KpePropertyWrapper8InjectedC12wrappedValuexvM",
+                "mangledName": "$s18KpePropertyWrapper8InjectedC12wrappedValuexvM",
+                "moduleName": "KpePropertyWrapper",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(resolver:tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Injected",
+                "printedName": "KpePropertyWrapper.Injected<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18KpePropertyWrapper8InjectedC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Resolver",
+                "printedName": "KpePropertyWrapper.Resolver",
+                "hasDefaultArg": true,
+                "usr": "s:18KpePropertyWrapper8ResolverC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18KpePropertyWrapper8InjectedC8resolver3tagACyxGAA8ResolverC_SSSgtcfc",
+            "mangledName": "$s18KpePropertyWrapper8InjectedC8resolver3tagACyxGAA8ResolverC_SSSgtcfc",
+            "moduleName": "KpePropertyWrapper",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Service>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18KpePropertyWrapper8InjectedC",
+        "mangledName": "$s18KpePropertyWrapper8InjectedC",
+        "moduleName": "KpePropertyWrapper",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Service>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KpePropertyWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Resolver",
+        "printedName": "Resolver",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Key",
+            "printedName": "Key",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18KpePropertyWrapper8ResolverC3KeyV9hashValueSivp",
+                "mangledName": "$s18KpePropertyWrapper8ResolverC3KeyV9hashValueSivp",
+                "moduleName": "KpePropertyWrapper",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18KpePropertyWrapper8ResolverC3KeyV9hashValueSivg",
+                    "mangledName": "$s18KpePropertyWrapper8ResolverC3KeyV9hashValueSivg",
+                    "moduleName": "KpePropertyWrapper",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18KpePropertyWrapper8ResolverC3KeyV4hash4intoys6HasherVz_tF",
+                "mangledName": "$s18KpePropertyWrapper8ResolverC3KeyV4hash4intoys6HasherVz_tF",
+                "moduleName": "KpePropertyWrapper",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Key",
+                    "printedName": "KpePropertyWrapper.Resolver.Key",
+                    "usr": "s:18KpePropertyWrapper8ResolverC3KeyV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Key",
+                    "printedName": "KpePropertyWrapper.Resolver.Key",
+                    "usr": "s:18KpePropertyWrapper8ResolverC3KeyV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18KpePropertyWrapper8ResolverC3KeyV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s18KpePropertyWrapper8ResolverC3KeyV2eeoiySbAE_AEtFZ",
+                "moduleName": "KpePropertyWrapper",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18KpePropertyWrapper8ResolverC3KeyV",
+            "mangledName": "$s18KpePropertyWrapper8ResolverC3KeyV",
+            "moduleName": "KpePropertyWrapper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Resolver",
+                "printedName": "KpePropertyWrapper.Resolver",
+                "usr": "s:18KpePropertyWrapper8ResolverC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18KpePropertyWrapper8ResolverC7defaultACvpZ",
+            "mangledName": "$s18KpePropertyWrapper8ResolverC7defaultACvpZ",
+            "moduleName": "KpePropertyWrapper",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Resolver",
+                    "printedName": "KpePropertyWrapper.Resolver",
+                    "usr": "s:18KpePropertyWrapper8ResolverC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KpePropertyWrapper8ResolverC7defaultACvgZ",
+                "mangledName": "$s18KpePropertyWrapper8ResolverC7defaultACvgZ",
+                "moduleName": "KpePropertyWrapper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(type:tag:factory:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18KpePropertyWrapper8ResolverC8register4type3tag7factoryyxm_SSSgxyXAtlF",
+            "mangledName": "$s18KpePropertyWrapper8ResolverC8register4type3tag7factoryyxm_SSSgxyXAtlF",
+            "moduleName": "KpePropertyWrapper",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(type:tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18KpePropertyWrapper8ResolverC7resolve4type3tagxSgxm_SSSgtlF",
+            "mangledName": "$s18KpePropertyWrapper8ResolverC7resolve4type3tagxSgxm_SSSgtlF",
+            "moduleName": "KpePropertyWrapper",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregister",
+            "printedName": "unregister(type:tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18KpePropertyWrapper8ResolverC10unregister4type3tagyxm_SSSgtlF",
+            "mangledName": "$s18KpePropertyWrapper8ResolverC10unregister4type3tagyxm_SSSgtlF",
+            "moduleName": "KpePropertyWrapper",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18KpePropertyWrapper8ResolverC",
+        "mangledName": "$s18KpePropertyWrapper8ResolverC",
+        "moduleName": "KpePropertyWrapper",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

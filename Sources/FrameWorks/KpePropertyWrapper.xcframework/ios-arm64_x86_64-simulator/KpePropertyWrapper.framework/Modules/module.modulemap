@@ -1,0 +1,6 @@
+framework module KpePropertyWrapper {
+  umbrella header "KpePropertyWrapper.h"
+  export *
+
+  module * { export * }
+}
