@@ -7,8 +7,8 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class AppRouter {
-  public static let shared: KpeRouteHelper.AppRouter
+@_hasMissingDesignatedInitializers public class Router {
+  public static let shared: KpeRouteHelper.Router
   public func configure(with navigationController: UIKit.UINavigationController)
   public func start(with initialRoute: any KpeRouteHelper.Route)
   public func setRoot(to route: any KpeRouteHelper.Route, duration: Foundation.TimeInterval?, options: UIKit.UIView.AnimationOptions?)

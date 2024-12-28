@@ -16,8 +16,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "AppRouter",
-        "printedName": "AppRouter",
+        "name": "Router",
+        "printedName": "Router",
         "children": [
           {
             "kind": "Var",
@@ -26,14 +26,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "AppRouter",
-                "printedName": "KpeRouteHelper.AppRouter",
-                "usr": "s:14KpeRouteHelper9AppRouterC"
+                "name": "Router",
+                "printedName": "KpeRouteHelper.Router",
+                "usr": "s:14KpeRouteHelper6RouterC"
               }
             ],
             "declKind": "Var",
-            "usr": "s:14KpeRouteHelper9AppRouterC6sharedACvpZ",
-            "mangledName": "$s14KpeRouteHelper9AppRouterC6sharedACvpZ",
+            "usr": "s:14KpeRouteHelper6RouterC6sharedACvpZ",
+            "mangledName": "$s14KpeRouteHelper6RouterC6sharedACvpZ",
             "moduleName": "KpeRouteHelper",
             "static": true,
             "declAttributes": [
@@ -53,14 +53,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "AppRouter",
-                    "printedName": "KpeRouteHelper.AppRouter",
-                    "usr": "s:14KpeRouteHelper9AppRouterC"
+                    "name": "Router",
+                    "printedName": "KpeRouteHelper.Router",
+                    "usr": "s:14KpeRouteHelper6RouterC"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14KpeRouteHelper9AppRouterC6sharedACvgZ",
-                "mangledName": "$s14KpeRouteHelper9AppRouterC6sharedACvgZ",
+                "usr": "s:14KpeRouteHelper6RouterC6sharedACvgZ",
+                "mangledName": "$s14KpeRouteHelper6RouterC6sharedACvgZ",
                 "moduleName": "KpeRouteHelper",
                 "static": true,
                 "implicit": true,
@@ -89,8 +89,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14KpeRouteHelper9AppRouterC9configure4withySo22UINavigationControllerC_tF",
-            "mangledName": "$s14KpeRouteHelper9AppRouterC9configure4withySo22UINavigationControllerC_tF",
+            "usr": "s:14KpeRouteHelper6RouterC9configure4withySo22UINavigationControllerC_tF",
+            "mangledName": "$s14KpeRouteHelper6RouterC9configure4withySo22UINavigationControllerC_tF",
             "moduleName": "KpeRouteHelper",
             "declAttributes": [
               "AccessControl",
@@ -116,8 +116,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14KpeRouteHelper9AppRouterC5start4withyAA0B0_p_tF",
-            "mangledName": "$s14KpeRouteHelper9AppRouterC5start4withyAA0B0_p_tF",
+            "usr": "s:14KpeRouteHelper6RouterC5start4withyAA0B0_p_tF",
+            "mangledName": "$s14KpeRouteHelper6RouterC5start4withyAA0B0_p_tF",
             "moduleName": "KpeRouteHelper",
             "declAttributes": [
               "AccessControl",
@@ -171,8 +171,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14KpeRouteHelper9AppRouterC7setRoot2to8duration7optionsyAA0B0_p_SdSgSo22UIViewAnimationOptionsVSgtF",
-            "mangledName": "$s14KpeRouteHelper9AppRouterC7setRoot2to8duration7optionsyAA0B0_p_SdSgSo22UIViewAnimationOptionsVSgtF",
+            "usr": "s:14KpeRouteHelper6RouterC7setRoot2to8duration7optionsyAA0B0_p_SdSgSo22UIViewAnimationOptionsVSgtF",
+            "mangledName": "$s14KpeRouteHelper6RouterC7setRoot2to8duration7optionsyAA0B0_p_SdSgSo22UIViewAnimationOptionsVSgtF",
             "moduleName": "KpeRouteHelper",
             "declAttributes": [
               "AccessControl",
@@ -198,8 +198,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14KpeRouteHelper9AppRouterC4push2toyAA0B0_p_tF",
-            "mangledName": "$s14KpeRouteHelper9AppRouterC4push2toyAA0B0_p_tF",
+            "usr": "s:14KpeRouteHelper6RouterC4push2toyAA0B0_p_tF",
+            "mangledName": "$s14KpeRouteHelper6RouterC4push2toyAA0B0_p_tF",
             "moduleName": "KpeRouteHelper",
             "declAttributes": [
               "AccessControl",
@@ -219,8 +219,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14KpeRouteHelper9AppRouterC3popyyF",
-            "mangledName": "$s14KpeRouteHelper9AppRouterC3popyyF",
+            "usr": "s:14KpeRouteHelper6RouterC3popyyF",
+            "mangledName": "$s14KpeRouteHelper6RouterC3popyyF",
             "moduleName": "KpeRouteHelper",
             "declAttributes": [
               "AccessControl",
@@ -246,8 +246,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14KpeRouteHelper9AppRouterC3pop2toyAA0B0_p_tF",
-            "mangledName": "$s14KpeRouteHelper9AppRouterC3pop2toyAA0B0_p_tF",
+            "usr": "s:14KpeRouteHelper6RouterC3pop2toyAA0B0_p_tF",
+            "mangledName": "$s14KpeRouteHelper6RouterC3pop2toyAA0B0_p_tF",
             "moduleName": "KpeRouteHelper",
             "declAttributes": [
               "AccessControl",
@@ -301,8 +301,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14KpeRouteHelper9AppRouterC4show5sheet17presentationStyle010transitionI0yAA0B0_p_So019UIModalPresentationI0VSgSo0k10TransitionI0VSgtF",
-            "mangledName": "$s14KpeRouteHelper9AppRouterC4show5sheet17presentationStyle010transitionI0yAA0B0_p_So019UIModalPresentationI0VSgSo0k10TransitionI0VSgtF",
+            "usr": "s:14KpeRouteHelper6RouterC4show5sheet17presentationStyle010transitionH0yAA0B0_p_So019UIModalPresentationH0VSgSo0j10TransitionH0VSgtF",
+            "mangledName": "$s14KpeRouteHelper6RouterC4show5sheet17presentationStyle010transitionH0yAA0B0_p_So019UIModalPresentationH0VSgSo0j10TransitionH0VSgtF",
             "moduleName": "KpeRouteHelper",
             "declAttributes": [
               "AccessControl",
@@ -347,8 +347,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14KpeRouteHelper9AppRouterC7dismiss10completionyyycSg_tF",
-            "mangledName": "$s14KpeRouteHelper9AppRouterC7dismiss10completionyyycSg_tF",
+            "usr": "s:14KpeRouteHelper6RouterC7dismiss10completionyyycSg_tF",
+            "mangledName": "$s14KpeRouteHelper6RouterC7dismiss10completionyyycSg_tF",
             "moduleName": "KpeRouteHelper",
             "declAttributes": [
               "AccessControl",
@@ -358,8 +358,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:14KpeRouteHelper9AppRouterC",
-        "mangledName": "$s14KpeRouteHelper9AppRouterC",
+        "usr": "s:14KpeRouteHelper6RouterC",
+        "mangledName": "$s14KpeRouteHelper6RouterC",
         "moduleName": "KpeRouteHelper",
         "declAttributes": [
           "AccessControl",
