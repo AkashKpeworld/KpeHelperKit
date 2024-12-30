@@ -1,0 +1,6 @@
+framework module KpeExtentionKit {
+  umbrella header "KpeExtentionKit.h"
+  export *
+
+  module * { export * }
+}

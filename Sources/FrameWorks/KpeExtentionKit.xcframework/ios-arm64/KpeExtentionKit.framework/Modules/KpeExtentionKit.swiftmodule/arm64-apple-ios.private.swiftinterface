@@ -1,0 +1,296 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name KpeExtentionKit
+import AVKit
+import AppTrackingTransparency
+import Foundation
+@_exported import KpeExtentionKit
+import SafariServices
+import StoreKit
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func superview<T>(of type: T.Type) -> T?
+  @_Concurrency.MainActor(unsafe) public func subview<T>(of type: T.Type) -> T?
+  @_Concurrency.MainActor(unsafe) public func subviews<T>(ofType WhatType: T.Type) -> [T]
+}
+extension UIKit.UIView {
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func loadFromNib<T>() -> T? where T : UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public func fixInView(_ container: UIKit.UIView, with padding: CoreFoundation.CGFloat = 0)
+  @_Concurrency.MainActor(unsafe) public func addEqualConstraintsWith(_ view: UIKit.UIView, with constant: CoreFoundation.CGFloat = 0)
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func isHidden(_ isHidden: Swift.Bool, in stackView: UIKit.UIStackView)
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func addShadow(ofColor color: UIKit.UIColor = .gray, radius: CoreFoundation.CGFloat = 3, offset: CoreFoundation.CGSize = .zero, opacity: Swift.Float = 0.5)
+  @_Concurrency.MainActor(unsafe) public func roundCorners(_ corners: UIKit.UIRectCorner, radius: CoreFoundation.CGFloat)
+}
+extension Swift.Dictionary {
+  public func decode<T>() -> T? where T : Swift.Decodable, T : Swift.Encodable
+}
+extension Swift.RandomAccessCollection {
+  public func indexed() -> Swift.Array<(offset: Swift.Int, element: Self.Element)>
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class GradientView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layerClass: Swift.AnyClass {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class GradientButton : UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layerClass: Swift.AnyClass {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class GradientLable : UIKit.UILabel {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layerClass: Swift.AnyClass {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var text: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var font: UIKit.UIFont! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var bounds: CoreFoundation.CGRect {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension UIKit.UIApplication {
+  @_Concurrency.MainActor(unsafe) public static var keyWindow: UIKit.UIWindow? {
+    get
+  }
+}
+extension UIKit.UIColor {
+  convenience public init(hexString: Swift.String, alpha: CoreFoundation.CGFloat = 1.0)
+  public func toHexString() -> Swift.String
+}
+extension SwiftUI.Color {
+  public init(hex: Swift.String)
+}
+extension UIKit.UICollectionView {
+  @_Concurrency.MainActor(unsafe) public func deque<Cell>(indexPath: Foundation.IndexPath) -> Cell where Cell : UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) public func deque<Cell>(indexPath: Foundation.IndexPath, kind: Swift.String) -> Cell where Cell : UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) public func reload()
+  @_Concurrency.MainActor(unsafe) public func registerCell<Cell>(cell: Cell.Type) where Cell : UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) public func registerHeaderCell<Cell>(cell: Cell.Type, kind: Swift.String) where Cell : UIKit.UICollectionViewCell
+}
+extension UIKit.UICollectionReusableView {
+  @_Concurrency.MainActor(unsafe) public static var reuseIdentifier: Swift.String {
+    get
+  }
+}
+extension SwiftUI.View {
+  public func Print(_ vars: Any...) -> some SwiftUI.View
+  
+  public func eraseToAnyView() -> SwiftUI.AnyView
+  public func cornerRadius(_ radius: CoreFoundation.CGFloat, corners: UIKit.UIRectCorner) -> some SwiftUI.View
+  
+  public func ondidLoad(_ perform: @escaping () -> Swift.Void) -> some SwiftUI.View
+  
+  public func onWillAppear(_ perform: @escaping () -> Swift.Void) -> some SwiftUI.View
+  
+  public func dragToDismiss(onDismiss: @escaping () -> Swift.Void) -> some SwiftUI.View
+  
+  public func shakeOnError(isError: Swift.Bool) -> some SwiftUI.View
+  
+  public func glow(color: SwiftUI.Color, radius: CoreFoundation.CGFloat) -> some SwiftUI.View
+  
+  public func readGeometry(perform action: @escaping (CoreFoundation.CGRect) -> Swift.Void) -> some SwiftUI.View
+  
+  public func popUp<V>(isPresented: SwiftUI.Binding<Swift.Bool>, @SwiftUI.ViewBuilder content: @escaping () -> V) -> some SwiftUI.View where V : SwiftUI.View
+  
+  public func Divider(height: CoreFoundation.CGFloat = 1, color: SwiftUI.Color) -> some SwiftUI.View
+  
+  public func CenterVStack<V>(@SwiftUI.ViewBuilder content: @escaping () -> V) -> some SwiftUI.View where V : SwiftUI.View
+  
+  public func CenterHStack<V>(@SwiftUI.ViewBuilder content: @escaping () -> V) -> some SwiftUI.View where V : SwiftUI.View
+  
+}
+extension Swift.Int {
+  public var asDeviceHeight: CoreFoundation.CGFloat {
+    get
+  }
+  public var asDeviceWidth: CoreFoundation.CGFloat {
+    get
+  }
+}
+extension Swift.Double {
+  public var asDeviceHeight: CoreFoundation.CGFloat {
+    get
+  }
+  public var asDeviceWidth: CoreFoundation.CGFloat {
+    get
+  }
+}
+extension Swift.Float {
+  public var asDeviceHeight: CoreFoundation.CGFloat {
+    get
+  }
+  public var asDeviceWidth: CoreFoundation.CGFloat {
+    get
+  }
+}
+extension CoreFoundation.CGFloat {
+  public var asDeviceHeight: CoreFoundation.CGFloat {
+    get
+  }
+  public var asDeviceWidth: CoreFoundation.CGFloat {
+    get
+  }
+}
+extension Swift.FloatingPoint {
+  public func toString(withDecimalPlaces places: Swift.Int) -> Swift.String
+}
+extension UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) public func animate(interval: Foundation.TimeInterval = 0.3, _ doThis: (() -> Swift.Void)? = nil)
+}
+public enum DateFormatType : Swift.String {
+  case twelveHourWithDayOfMonth
+  case abbreviatedDayWithFullDate
+  case iso8601
+  case fullDayWithFullDate
+  case monthDayYearWithTime
+  case abbreviatedMonthDayWithTime
+  case hourMinuteSecondWithMilliseconds
+  case monthDayYear
+  case monthDayYearSlashes
+  case twelveHourTime
+  case fullMonthYear
+  case dayMonthYearDots
+  case shortDayShortMonthYear
+  case shortDayShortMonth
+  case shortMonthDayYear
+  case fullDayFullMonthYear
+  case fullMonthDayYear
+  case dayMonthYear
+  case fullYear
+  case shortYear
+  case monthDay
+  case shortMonthDay
+  case shortMonthYear
+  case monthYear
+  case day
+  case fullDay
+  case month
+  case fullMonth
+  case shortTime
+  case longTime
+  case hhmma
+  case shortMonth
+  case longMonth
+  case shortWeekday
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension Foundation.Date {
+  public func toString(format: KpeExtentionKit.DateFormatType) -> Swift.String
+}
+extension Swift.String {
+  public func toDate(_ format: KpeExtentionKit.DateFormatType) -> Foundation.Date
+}
+extension UIKit.UIStoryboard {
+  @_Concurrency.MainActor(unsafe) public func viewController<T>(vc: T.Type) -> T where T : UIKit.UIViewController
+}
+extension UIKit.UIAlertController {
+  @_Concurrency.MainActor(unsafe) public func addSpinner()
+}
+extension Swift.String {
+  public func trim() -> Swift.String
+  public func trimmingAllSpaces(using characterSet: Foundation.CharacterSet = .whitespacesAndNewlines) -> Swift.String
+}
+extension Swift.String {
+  public var isBlank: Swift.Bool {
+    get
+  }
+  public var isEmail: Swift.Bool {
+    get
+  }
+  public var isPhoneNumber: Swift.Bool {
+    get
+  }
+  public var isValidPassword: Swift.Bool {
+    get
+  }
+}
+extension Swift.String {
+  public func encoded() -> Swift.String
+  public func decoded() -> Swift.String
+  public func reverse() -> Swift.String
+}
+@_hasMissingDesignatedInitializers public class Haptic {
+  @objc deinit
+}
+public enum AppAlert {
+  public static func getTopMostVc() -> UIKit.UIViewController?
+  public static func showAlert(title: Swift.String = Bundle.main.appName, msg: Swift.String? = nil, buttonText: Swift.String? = "Ok", complition: (() -> Swift.Void)? = nil)
+  public static func loadingAlert(title: Swift.String? = nil, font: UIKit.UIFont = .systemFont(ofSize: 18.asDeviceWidth, weight: .semibold)) -> UIKit.UIAlertController
+  public static func gotoSettingAlert(msg: Swift.String)
+  public static func shareApp(with appID: Swift.String)
+  public static func shareData(with data: [Any])
+  public static func openSafari(urlStr: Swift.String)
+  public static func open(_ urlString: Swift.String, fallbackURL: Swift.String? = nil)
+  public static func openMail(to mail: Swift.String)
+  public static func rateApp()
+  public static func requestTracking(complition: @escaping () -> Swift.Void)
+  public static func checkTrackingPermission() -> Swift.Bool
+  public static func hideKeyboard()
+}
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public static var identifier: Swift.String {
+    get
+  }
+}
+extension UIKit.UITableView {
+  @_Concurrency.MainActor(unsafe) public func deque<Cell>() -> Cell where Cell : UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) public func reload()
+  @_Concurrency.MainActor(unsafe) public func registerCell<Cell>(cell: Cell.Type) where Cell : UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) public func registerHeaderCell<Cell>(cell: Cell.Type) where Cell : UIKit.UICollectionViewCell
+}
+extension UIKit.UIStackView {
+  @_Concurrency.MainActor(unsafe) public func addViews(views: [UIKit.UIView])
+  @_Concurrency.MainActor(unsafe) public func removeFully(view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) public func removeFullyAllArrangedSubviews()
+}
+extension Foundation.Bundle {
+  public var appName: Swift.String {
+    get
+  }
+  public func decode<T>(_ file: Swift.String) -> T where T : Swift.Decodable, T : Swift.Encodable
+}
+extension UIKit.UILabel {
+  @_Concurrency.MainActor(unsafe) public func halfTextColorChange(fullText: Swift.String, changeText: Swift.String, color: UIKit.UIColor = .gray, font: UIKit.UIFont?)
+}
+extension UIKit.UITapGestureRecognizer {
+  @_Concurrency.MainActor(unsafe) public func didTapAttributedTextInLabel(label: UIKit.UILabel, inRange targetRange: Foundation.NSRange) -> Swift.Bool
+}
+extension Dispatch.DispatchQueue {
+  public func after(time interval: Foundation.TimeInterval, work: @escaping () -> Swift.Void)
+}
+extension KpeExtentionKit.DateFormatType : Swift.Equatable {}
+extension KpeExtentionKit.DateFormatType : Swift.Hashable {}
+extension KpeExtentionKit.DateFormatType : Swift.RawRepresentable {}
