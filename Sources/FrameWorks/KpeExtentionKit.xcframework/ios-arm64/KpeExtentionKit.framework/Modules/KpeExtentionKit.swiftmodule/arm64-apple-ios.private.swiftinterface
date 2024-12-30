@@ -242,8 +242,13 @@ extension Swift.String {
   public func decoded() -> Swift.String
   public func reverse() -> Swift.String
 }
-@_hasMissingDesignatedInitializers public class Haptic {
-  @objc deinit
+public enum Haptic {
+  public static func feedback(for hapticFeedback: KpeExtentionKit.HapticFeedback)
+}
+public enum HapticFeedback {
+  case selection
+  case impact(style: UIKit.UIImpactFeedbackGenerator.FeedbackStyle)
+  case notification(type: UIKit.UINotificationFeedbackGenerator.FeedbackType)
 }
 public enum AppAlert {
   public static func getTopMostVc() -> UIKit.UIViewController?

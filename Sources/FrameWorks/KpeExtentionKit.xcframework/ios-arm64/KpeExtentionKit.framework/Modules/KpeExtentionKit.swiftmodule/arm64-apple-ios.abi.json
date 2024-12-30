@@ -2851,14 +2851,209 @@
         "kind": "TypeDecl",
         "name": "Haptic",
         "printedName": "Haptic",
-        "declKind": "Class",
-        "usr": "s:15KpeExtentionKit6HapticC",
-        "mangledName": "$s15KpeExtentionKit6HapticC",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "feedback",
+            "printedName": "feedback(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HapticFeedback",
+                "printedName": "KpeExtentionKit.HapticFeedback",
+                "usr": "s:15KpeExtentionKit14HapticFeedbackO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15KpeExtentionKit6HapticO8feedback3foryAA0D8FeedbackO_tFZ",
+            "mangledName": "$s15KpeExtentionKit6HapticO8feedback3foryAA0D8FeedbackO_tFZ",
+            "moduleName": "KpeExtentionKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15KpeExtentionKit6HapticO",
+        "mangledName": "$s15KpeExtentionKit6HapticO",
         "moduleName": "KpeExtentionKit",
         "declAttributes": [
           "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HapticFeedback",
+        "printedName": "HapticFeedback",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "selection",
+            "printedName": "selection",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KpeExtentionKit.HapticFeedback.Type) -> KpeExtentionKit.HapticFeedback",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HapticFeedback",
+                    "printedName": "KpeExtentionKit.HapticFeedback",
+                    "usr": "s:15KpeExtentionKit14HapticFeedbackO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KpeExtentionKit.HapticFeedback.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HapticFeedback",
+                        "printedName": "KpeExtentionKit.HapticFeedback",
+                        "usr": "s:15KpeExtentionKit14HapticFeedbackO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15KpeExtentionKit14HapticFeedbackO9selectionyA2CmF",
+            "mangledName": "$s15KpeExtentionKit14HapticFeedbackO9selectionyA2CmF",
+            "moduleName": "KpeExtentionKit"
+          },
+          {
+            "kind": "Var",
+            "name": "impact",
+            "printedName": "impact",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KpeExtentionKit.HapticFeedback.Type) -> (UIKit.UIImpactFeedbackGenerator.FeedbackStyle) -> KpeExtentionKit.HapticFeedback",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImpactFeedbackGenerator.FeedbackStyle) -> KpeExtentionKit.HapticFeedback",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HapticFeedback",
+                        "printedName": "KpeExtentionKit.HapticFeedback",
+                        "usr": "s:15KpeExtentionKit14HapticFeedbackO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(style: UIKit.UIImpactFeedbackGenerator.FeedbackStyle)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FeedbackStyle",
+                            "printedName": "UIKit.UIImpactFeedbackGenerator.FeedbackStyle",
+                            "usr": "c:@E@UIImpactFeedbackStyle"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KpeExtentionKit.HapticFeedback.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HapticFeedback",
+                        "printedName": "KpeExtentionKit.HapticFeedback",
+                        "usr": "s:15KpeExtentionKit14HapticFeedbackO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15KpeExtentionKit14HapticFeedbackO6impactyACSo08UIImpactE5StyleV_tcACmF",
+            "mangledName": "$s15KpeExtentionKit14HapticFeedbackO6impactyACSo08UIImpactE5StyleV_tcACmF",
+            "moduleName": "KpeExtentionKit"
+          },
+          {
+            "kind": "Var",
+            "name": "notification",
+            "printedName": "notification",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KpeExtentionKit.HapticFeedback.Type) -> (UIKit.UINotificationFeedbackGenerator.FeedbackType) -> KpeExtentionKit.HapticFeedback",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UINotificationFeedbackGenerator.FeedbackType) -> KpeExtentionKit.HapticFeedback",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HapticFeedback",
+                        "printedName": "KpeExtentionKit.HapticFeedback",
+                        "usr": "s:15KpeExtentionKit14HapticFeedbackO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(type: UIKit.UINotificationFeedbackGenerator.FeedbackType)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FeedbackType",
+                            "printedName": "UIKit.UINotificationFeedbackGenerator.FeedbackType",
+                            "usr": "c:@E@UINotificationFeedbackType"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KpeExtentionKit.HapticFeedback.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HapticFeedback",
+                        "printedName": "KpeExtentionKit.HapticFeedback",
+                        "usr": "s:15KpeExtentionKit14HapticFeedbackO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15KpeExtentionKit14HapticFeedbackO12notificationyACSo014UINotificationE4TypeV_tcACmF",
+            "mangledName": "$s15KpeExtentionKit14HapticFeedbackO12notificationyACSo014UINotificationE4TypeV_tcACmF",
+            "moduleName": "KpeExtentionKit"
+          }
         ],
-        "hasMissingDesignatedInitializers": true
+        "declKind": "Enum",
+        "usr": "s:15KpeExtentionKit14HapticFeedbackO",
+        "mangledName": "$s15KpeExtentionKit14HapticFeedbackO",
+        "moduleName": "KpeExtentionKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
