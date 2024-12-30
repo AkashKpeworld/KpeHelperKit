@@ -9,150 +9,105 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "TypeDecl",
@@ -194,7 +149,10 @@
             "declKind": "EnumElement",
             "usr": "s:15KpeExtentionKit14DateFormatTypeO24twelveHourWithDayOfMonthyA2CmF",
             "mangledName": "$s15KpeExtentionKit14DateFormatTypeO24twelveHourWithDayOfMonthyA2CmF",
-            "moduleName": "KpeExtentionKit"
+            "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1642,40 +1600,28 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
@@ -1726,7 +1672,8 @@
         "mangledName": "$s15KpeExtentionKit6HapticO",
         "moduleName": "KpeExtentionKit",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -1769,7 +1716,10 @@
             "declKind": "EnumElement",
             "usr": "s:15KpeExtentionKit14HapticFeedbackO9selectionyA2CmF",
             "mangledName": "$s15KpeExtentionKit14HapticFeedbackO9selectionyA2CmF",
-            "moduleName": "KpeExtentionKit"
+            "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1826,7 +1776,10 @@
             "declKind": "EnumElement",
             "usr": "s:15KpeExtentionKit14HapticFeedbackO6impactyACSo08UIImpactE5StyleV_tcACmF",
             "mangledName": "$s15KpeExtentionKit14HapticFeedbackO6impactyACSo08UIImpactE5StyleV_tcACmF",
-            "moduleName": "KpeExtentionKit"
+            "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1883,7 +1836,10 @@
             "declKind": "EnumElement",
             "usr": "s:15KpeExtentionKit14HapticFeedbackO12notificationyACSo014UINotificationE4TypeV_tcACmF",
             "mangledName": "$s15KpeExtentionKit14HapticFeedbackO12notificationyACSo014UINotificationE4TypeV_tcACmF",
-            "moduleName": "KpeExtentionKit"
+            "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           }
         ],
         "declKind": "Enum",
@@ -1900,10 +1856,7 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
@@ -1964,14 +1917,15 @@
             "moduleName": "KpeExtentionKit",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
             "name": "showAlert",
-            "printedName": "showAlert(title:msg:buttonText:complition:)",
+            "printedName": "showAlert(title:titleFont:msg:msgFont:options:btnStyle:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1987,6 +1941,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "Swift.String?",
                 "children": [
@@ -1999,6 +1960,117 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIAlertAction.Style]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Style",
+                    "printedName": "UIKit.UIAlertAction.Style",
+                    "usr": "c:@E@UIAlertActionStyle"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15KpeExtentionKit0A5AlertO04showD05title0F4Font3msg0hG07options8btnStyle10completionySS_So6UIFontCSSSgAMSSdSo013UIAlertActionK0VdySictFZ",
+            "mangledName": "$s15KpeExtentionKit0A5AlertO04showD05title0F4Font3msg0hG07options8btnStyle10completionySS_So6UIFontCSSSgAMSSdSo013UIAlertActionK0VdySictFZ",
+            "moduleName": "KpeExtentionKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAlert",
+            "printedName": "showAlert(title:titleFont:msg:msgFont:buttonText:complition:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIFont"
               },
               {
                 "kind": "TypeNominal",
@@ -2043,12 +2115,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15KpeExtentionKit0A5AlertO04showD05title3msg10buttonText10complitionySS_SSSgAIyycSgtFZ",
-            "mangledName": "$s15KpeExtentionKit0A5AlertO04showD05title3msg10buttonText10complitionySS_SSSgAIyycSgtFZ",
+            "usr": "s:15KpeExtentionKit0A5AlertO04showD05title0F4Font3msg0hG010buttonText10complitionySS_So6UIFontCSSSgAlMyycSgtFZ",
+            "mangledName": "$s15KpeExtentionKit0A5AlertO04showD05title0F4Font3msg0hG010buttonText10complitionySS_So6UIFontCSSSgAlMyycSgtFZ",
             "moduleName": "KpeExtentionKit",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2092,7 +2165,8 @@
             "moduleName": "KpeExtentionKit",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2119,7 +2193,8 @@
             "moduleName": "KpeExtentionKit",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2146,7 +2221,8 @@
             "moduleName": "KpeExtentionKit",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2180,7 +2256,8 @@
             "moduleName": "KpeExtentionKit",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2207,7 +2284,8 @@
             "moduleName": "KpeExtentionKit",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2249,7 +2327,8 @@
             "moduleName": "KpeExtentionKit",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2276,7 +2355,8 @@
             "moduleName": "KpeExtentionKit",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2297,7 +2377,8 @@
             "moduleName": "KpeExtentionKit",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2335,7 +2416,8 @@
             "moduleName": "KpeExtentionKit",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2357,7 +2439,8 @@
             "moduleName": "KpeExtentionKit",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2378,7 +2461,8 @@
             "moduleName": "KpeExtentionKit",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -2388,16 +2472,7 @@
         "mangledName": "$s15KpeExtentionKit0A5AlertO",
         "moduleName": "KpeExtentionKit",
         "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -2406,50 +2481,42 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpeExtentionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeExtentionKit"
       },
       {
         "kind": "TypeDecl",
@@ -2494,7 +2561,8 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2537,7 +2605,8 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2580,7 +2649,8 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2612,7 +2682,8 @@
             "sugared_genericSig": "<T where T : UIKit.UIView>",
             "declAttributes": [
               "Custom",
-              "DiscardableResult"
+              "DiscardableResult",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2646,7 +2717,8 @@
             "mangledName": "$sSo6UIViewC15KpeExtentionKitE9fixInView_4withyAB_12CoreGraphics7CGFloatVtF",
             "moduleName": "KpeExtentionKit",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2680,7 +2752,8 @@
             "mangledName": "$sSo6UIViewC15KpeExtentionKitE23addEqualConstraintsWith_4withyAB_12CoreGraphics7CGFloatVtF",
             "moduleName": "KpeExtentionKit",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2713,7 +2786,8 @@
             "mangledName": "$sSo6UIViewC15KpeExtentionKitE8isHidden_2inySb_So11UIStackViewCtF",
             "moduleName": "KpeExtentionKit",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2762,7 +2836,8 @@
             "mangledName": "$sSo6UIViewC15KpeExtentionKitE9addShadow7ofColor6radius6offset7opacityySo7UIColorC_12CoreGraphics7CGFloatVSo6CGSizeVSftF",
             "moduleName": "KpeExtentionKit",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2795,7 +2870,8 @@
             "mangledName": "$sSo6UIViewC15KpeExtentionKitE12roundCorners_6radiusySo12UIRectCornerV_12CoreGraphics7CGFloatVtF",
             "moduleName": "KpeExtentionKit",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2917,6 +2993,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0, τ_0_1, τ_1_0 where τ_0_0 : Swift.Hashable, τ_1_0 : Swift.Decodable, τ_1_0 : Swift.Encodable>",
             "sugared_genericSig": "<Key, Value, T where Key : Swift.Hashable, T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -3274,6 +3353,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.RandomAccessCollection>",
             "sugared_genericSig": "<Self where Self : Swift.RandomAccessCollection>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -3341,7 +3423,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "accessors": [
@@ -3486,7 +3569,8 @@
             "mangledName": "$sSo7UIColorC15KpeExtentionKitE9hexString5alphaABSS_12CoreGraphics7CGFloatVtcfc",
             "moduleName": "KpeExtentionKit",
             "declAttributes": [
-              "Convenience"
+              "Convenience",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "init_kind": "Convenience"
@@ -3507,6 +3591,9 @@
             "usr": "s:So7UIColorC15KpeExtentionKitE11toHexStringSSyF",
             "mangledName": "$sSo7UIColorC15KpeExtentionKitE11toHexStringSSyF",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -3624,6 +3711,9 @@
             "usr": "s:7SwiftUI5ColorV15KpeExtentionKitE3hexACSS_tcfc",
             "mangledName": "$s7SwiftUI5ColorV15KpeExtentionKitE3hexACSS_tcfc",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           }
@@ -3783,7 +3873,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UICollectionViewCell>",
             "sugared_genericSig": "<Cell where Cell : UIKit.UICollectionViewCell>",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3818,7 +3909,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UICollectionViewCell>",
             "sugared_genericSig": "<Cell where Cell : UIKit.UICollectionViewCell>",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3839,7 +3931,8 @@
             "mangledName": "$sSo16UICollectionViewC15KpeExtentionKitE6reloadyyF",
             "moduleName": "KpeExtentionKit",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3874,7 +3967,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UICollectionViewCell>",
             "sugared_genericSig": "<Cell where Cell : UIKit.UICollectionViewCell>",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3915,7 +4009,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UICollectionViewCell>",
             "sugared_genericSig": "<Cell where Cell : UIKit.UICollectionViewCell>",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -4033,7 +4128,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "accessors": [
@@ -4193,6 +4289,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -4214,6 +4313,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -4254,6 +4356,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -4299,6 +4404,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -4344,6 +4452,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -4389,6 +4500,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -4423,6 +4537,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -4463,6 +4580,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -4509,6 +4629,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -4568,6 +4691,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self, V where Self : SwiftUI.View, V : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -4610,7 +4736,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -4657,6 +4784,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self, V where Self : SwiftUI.View, V : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -4702,6 +4832,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self, V where Self : SwiftUI.View, V : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -4746,6 +4879,9 @@
             "usr": "s:Si15KpeExtentionKitE14asDeviceHeight14CoreFoundation7CGFloatVvp",
             "mangledName": "$sSi15KpeExtentionKitE14asDeviceHeight12CoreGraphics7CGFloatVvp",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -4785,6 +4921,9 @@
             "usr": "s:Si15KpeExtentionKitE13asDeviceWidth14CoreFoundation7CGFloatVvp",
             "mangledName": "$sSi15KpeExtentionKitE13asDeviceWidth12CoreGraphics7CGFloatVvp",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -5228,6 +5367,9 @@
             "usr": "s:Sd15KpeExtentionKitE14asDeviceHeight14CoreFoundation7CGFloatVvp",
             "mangledName": "$sSd15KpeExtentionKitE14asDeviceHeight12CoreGraphics7CGFloatVvp",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -5267,6 +5409,9 @@
             "usr": "s:Sd15KpeExtentionKitE13asDeviceWidth14CoreFoundation7CGFloatVvp",
             "mangledName": "$sSd15KpeExtentionKitE13asDeviceWidth12CoreGraphics7CGFloatVvp",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -5803,6 +5948,9 @@
             "usr": "s:Sf15KpeExtentionKitE14asDeviceHeight14CoreFoundation7CGFloatVvp",
             "mangledName": "$sSf15KpeExtentionKitE14asDeviceHeight12CoreGraphics7CGFloatVvp",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -5842,6 +5990,9 @@
             "usr": "s:Sf15KpeExtentionKitE13asDeviceWidth14CoreFoundation7CGFloatVvp",
             "mangledName": "$sSf15KpeExtentionKitE13asDeviceWidth12CoreGraphics7CGFloatVvp",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -6356,6 +6507,9 @@
             "usr": "s:14CoreFoundation7CGFloatV15KpeExtentionKitE14asDeviceHeightACvp",
             "mangledName": "$s12CoreGraphics7CGFloatV15KpeExtentionKitE14asDeviceHeightACvp",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -6395,6 +6549,9 @@
             "usr": "s:14CoreFoundation7CGFloatV15KpeExtentionKitE13asDeviceWidthACvp",
             "mangledName": "$s12CoreGraphics7CGFloatV15KpeExtentionKitE13asDeviceWidthACvp",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -6804,6 +6961,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.FloatingPoint>",
             "sugared_genericSig": "<Self where Self : Swift.FloatingPoint>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -6928,7 +7088,8 @@
             "mangledName": "$sSo8UIButtonC15KpeExtentionKitE7animate8interval_ySd_yycSgtF",
             "moduleName": "KpeExtentionKit",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -7049,6 +7210,9 @@
             "usr": "s:10Foundation4DateV15KpeExtentionKitE8toString6formatSSAD0B10FormatTypeO_tF",
             "mangledName": "$s10Foundation4DateV15KpeExtentionKitE8toString6formatSSAD0B10FormatTypeO_tF",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -7234,6 +7398,9 @@
             "usr": "s:SS15KpeExtentionKitE6toDatey10Foundation0E0VAA0E10FormatTypeOF",
             "mangledName": "$sSS15KpeExtentionKitE6toDatey10Foundation0E0VAA0E10FormatTypeOF",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -7253,6 +7420,9 @@
             "usr": "s:SS15KpeExtentionKitE4trimSSyF",
             "mangledName": "$sSS15KpeExtentionKitE4trimSSyF",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -7279,6 +7449,9 @@
             "usr": "s:SS15KpeExtentionKitE17trimmingAllSpaces5usingSS10Foundation12CharacterSetV_tF",
             "mangledName": "$sSS15KpeExtentionKitE17trimmingAllSpaces5usingSS10Foundation12CharacterSetV_tF",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -7466,6 +7639,9 @@
             "usr": "s:SS15KpeExtentionKitE7encodedSSyF",
             "mangledName": "$sSS15KpeExtentionKitE7encodedSSyF",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -7485,6 +7661,9 @@
             "usr": "s:SS15KpeExtentionKitE7decodedSSyF",
             "mangledName": "$sSS15KpeExtentionKitE7decodedSSyF",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -7504,6 +7683,9 @@
             "usr": "s:SS15KpeExtentionKitE7reverseSSyF",
             "mangledName": "$sSS15KpeExtentionKitE7reverseSSyF",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -8109,7 +8291,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIViewController>",
             "sugared_genericSig": "<T where T : UIKit.UIViewController>",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -8207,7 +8390,8 @@
             "mangledName": "$sSo17UIAlertControllerC15KpeExtentionKitE10addSpinneryyF",
             "moduleName": "KpeExtentionKit",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -8317,7 +8501,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "accessors": [
@@ -8449,7 +8634,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UITableViewCell>",
             "sugared_genericSig": "<Cell where Cell : UIKit.UITableViewCell>",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -8470,7 +8656,8 @@
             "mangledName": "$sSo11UITableViewC15KpeExtentionKitE6reloadyyF",
             "moduleName": "KpeExtentionKit",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -8499,13 +8686,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:So11UITableViewC15KpeExtentionKitE12registerCell4cellyxm_tSo012UICollectionbG0CRbzlF",
-            "mangledName": "$sSo11UITableViewC15KpeExtentionKitE12registerCell4cellyxm_tSo012UICollectionbG0CRbzlF",
+            "usr": "s:So11UITableViewC15KpeExtentionKitE12registerCell4cellyxm_tSo0abG0CRbzlF",
+            "mangledName": "$sSo11UITableViewC15KpeExtentionKitE12registerCell4cellyxm_tSo0abG0CRbzlF",
             "moduleName": "KpeExtentionKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UICollectionViewCell>",
-            "sugared_genericSig": "<Cell where Cell : UIKit.UICollectionViewCell>",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UITableViewCell>",
+            "sugared_genericSig": "<Cell where Cell : UIKit.UITableViewCell>",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -8534,13 +8722,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:So11UITableViewC15KpeExtentionKitE18registerHeaderCell4cellyxm_tSo012UICollectionbH0CRbzlF",
-            "mangledName": "$sSo11UITableViewC15KpeExtentionKitE18registerHeaderCell4cellyxm_tSo012UICollectionbH0CRbzlF",
+            "usr": "s:So11UITableViewC15KpeExtentionKitE18registerHeaderCell4cellyxm_tSo0abg6FooterB0CRbzlF",
+            "mangledName": "$sSo11UITableViewC15KpeExtentionKitE18registerHeaderCell4cellyxm_tSo0abg6FooterB0CRbzlF",
             "moduleName": "KpeExtentionKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UICollectionViewCell>",
-            "sugared_genericSig": "<Cell where Cell : UIKit.UICollectionViewCell>",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UITableViewHeaderFooterView>",
+            "sugared_genericSig": "<Cell where Cell : UIKit.UITableViewHeaderFooterView>",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -8676,7 +8865,8 @@
             "mangledName": "$sSo11UIStackViewC15KpeExtentionKitE8addViews5viewsySaySo6UIViewCG_tF",
             "moduleName": "KpeExtentionKit",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -8703,7 +8893,8 @@
             "mangledName": "$sSo11UIStackViewC15KpeExtentionKitE11removeFully4viewySo6UIViewC_tF",
             "moduleName": "KpeExtentionKit",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -8724,7 +8915,8 @@
             "mangledName": "$sSo11UIStackViewC15KpeExtentionKitE30removeFullyAllArrangedSubviewsyyF",
             "moduleName": "KpeExtentionKit",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -8845,6 +9037,9 @@
             "usr": "s:So8NSBundleC15KpeExtentionKitE7appNameSSvp",
             "mangledName": "$sSo8NSBundleC15KpeExtentionKitE7appNameSSvp",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -8891,6 +9086,9 @@
             "moduleName": "KpeExtentionKit",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -9026,7 +9224,8 @@
             "mangledName": "$sSo7UILabelC15KpeExtentionKitE19halfTextColorChange04fullF006changeF05color4fontySS_SSSo7UIColorCSo6UIFontCSgtF",
             "moduleName": "KpeExtentionKit",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -9160,7 +9359,8 @@
             "mangledName": "$sSo22UITapGestureRecognizerC15KpeExtentionKitE27didTapAttributedTextInLabel5label7inRangeSbSo7UILabelC_So8_NSRangeVtF",
             "moduleName": "KpeExtentionKit",
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -9281,6 +9481,9 @@
             "usr": "s:So17OS_dispatch_queueC15KpeExtentionKitE5after4time4workySd_yyctF",
             "mangledName": "$sSo17OS_dispatch_queueC15KpeExtentionKitE5after4time4workySd_yyctF",
             "moduleName": "KpeExtentionKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -9407,595 +9610,609 @@
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/UIKit\/UIView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1173,
+      "offset": 2948,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/UIKit\/UIView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1389,
+      "offset": 3585,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/UIKit\/UIView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2339,
+      "offset": 5527,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/UIKit\/UIView.swift",
       "kind": "FloatLiteral",
-      "offset": 2421,
+      "offset": 5609,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/UIKit\/UIColor.swift",
       "kind": "FloatLiteral",
-      "offset": 183,
+      "offset": 592,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/SwiftUI\/View.swift",
       "kind": "IntegerLiteral",
-      "offset": 2525,
+      "offset": 4814,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/UIKit\/UIButton.swift",
       "kind": "FloatLiteral",
-      "offset": 170,
+      "offset": 441,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 207,
+      "offset": 292,
       "length": 31,
       "value": "\"hh:mm:ss a 'on' MMMM dd, yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 320,
+      "offset": 457,
       "length": 26,
       "value": "\"E, d MMM yyyy HH:mm:ss Z\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 408,
+      "offset": 575,
       "length": 24,
       "value": "\"yyyy-MM-dd'T'HH:mm:ssZ\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 500,
+      "offset": 699,
       "length": 19,
       "value": "\"EEEE, MMM d, yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 585,
+      "offset": 815,
       "length": 18,
       "value": "\"MM-dd-yyyy HH:mm\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 671,
+      "offset": 943,
       "length": 15,
       "value": "\"MMM d, h:mm a\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 758,
+      "offset": 1075,
       "length": 14,
       "value": "\"HH:mm:ss.SSS\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 821,
+      "offset": 1170,
       "length": 13,
       "value": "\"MMM d, yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 889,
+      "offset": 1283,
       "length": 12,
       "value": "\"MM\/dd\/yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 950,
+      "offset": 1376,
       "length": 12,
       "value": "\"hh:mm:ss a\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1011,
+      "offset": 1472,
       "length": 11,
       "value": "\"MMMM yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1075,
+      "offset": 1575,
       "length": 10,
       "value": "\"dd.MM.yy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1140,
+      "offset": 1689,
       "length": 13,
       "value": "\"E, d MMM yy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1209,
+      "offset": 1799,
       "length": 10,
       "value": "\"E, d MMM\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1271,
+      "offset": 1899,
       "length": 11,
       "value": "\"MMM d, yy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1336,
+      "offset": 2028,
       "length": 19,
       "value": "\"EEEE, d MMMM yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1420,
+      "offset": 2141,
       "length": 14,
       "value": "\"MMMM d, yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1486,
+      "offset": 2235,
       "length": 12,
       "value": "\"d MMM yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1541,
+      "offset": 2312,
       "length": 6,
       "value": "\"yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1585,
+      "offset": 2383,
       "length": 4,
       "value": "\"yy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1624,
+      "offset": 2453,
       "length": 7,
       "value": "\"MM-dd\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1674,
+      "offset": 2537,
       "length": 7,
       "value": "\"MMM d\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1725,
+      "offset": 2624,
       "length": 8,
       "value": "\"MMM yy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1773,
+      "offset": 2703,
       "length": 10,
       "value": "\"MMM yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1819,
+      "offset": 2764,
       "length": 3,
       "value": "\"d\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1855,
+      "offset": 2834,
       "length": 6,
       "value": "\"EEEE\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1899,
+      "offset": 2897,
       "length": 5,
       "value": "\"MMM\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1941,
+      "offset": 2972,
       "length": 6,
       "value": "\"MMMM\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1988,
+      "offset": 3049,
       "length": 8,
       "value": "\"h:mm a\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 2037,
+      "offset": 3126,
       "length": 10,
       "value": "\"HH:mm:ss\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 2085,
+      "offset": 3212,
       "length": 9,
       "value": "\"hh:mm a\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 2137,
+      "offset": 3288,
       "length": 4,
       "value": "\"MM\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 2177,
+      "offset": 3356,
       "length": 7,
       "value": "\"MMMMM\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 2222,
+      "offset": 3435,
       "length": 3,
       "value": "\"E\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 207,
+      "offset": 292,
       "length": 31,
       "value": "\"hh:mm:ss a 'on' MMMM dd, yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 320,
+      "offset": 457,
       "length": 26,
       "value": "\"E, d MMM yyyy HH:mm:ss Z\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 408,
+      "offset": 575,
       "length": 24,
       "value": "\"yyyy-MM-dd'T'HH:mm:ssZ\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 500,
+      "offset": 699,
       "length": 19,
       "value": "\"EEEE, MMM d, yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 585,
+      "offset": 815,
       "length": 18,
       "value": "\"MM-dd-yyyy HH:mm\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 671,
+      "offset": 943,
       "length": 15,
       "value": "\"MMM d, h:mm a\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 758,
+      "offset": 1075,
       "length": 14,
       "value": "\"HH:mm:ss.SSS\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 821,
+      "offset": 1170,
       "length": 13,
       "value": "\"MMM d, yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 889,
+      "offset": 1283,
       "length": 12,
       "value": "\"MM\/dd\/yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 950,
+      "offset": 1376,
       "length": 12,
       "value": "\"hh:mm:ss a\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1011,
+      "offset": 1472,
       "length": 11,
       "value": "\"MMMM yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1075,
+      "offset": 1575,
       "length": 10,
       "value": "\"dd.MM.yy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1140,
+      "offset": 1689,
       "length": 13,
       "value": "\"E, d MMM yy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1209,
+      "offset": 1799,
       "length": 10,
       "value": "\"E, d MMM\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1271,
+      "offset": 1899,
       "length": 11,
       "value": "\"MMM d, yy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1336,
+      "offset": 2028,
       "length": 19,
       "value": "\"EEEE, d MMMM yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1420,
+      "offset": 2141,
       "length": 14,
       "value": "\"MMMM d, yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1486,
+      "offset": 2235,
       "length": 12,
       "value": "\"d MMM yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1541,
+      "offset": 2312,
       "length": 6,
       "value": "\"yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1585,
+      "offset": 2383,
       "length": 4,
       "value": "\"yy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1624,
+      "offset": 2453,
       "length": 7,
       "value": "\"MM-dd\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1674,
+      "offset": 2537,
       "length": 7,
       "value": "\"MMM d\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1725,
+      "offset": 2624,
       "length": 8,
       "value": "\"MMM yy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1773,
+      "offset": 2703,
       "length": 10,
       "value": "\"MMM yyyy\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1819,
+      "offset": 2764,
       "length": 3,
       "value": "\"d\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1855,
+      "offset": 2834,
       "length": 6,
       "value": "\"EEEE\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1899,
+      "offset": 2897,
       "length": 5,
       "value": "\"MMM\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1941,
+      "offset": 2972,
       "length": 6,
       "value": "\"MMMM\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 1988,
+      "offset": 3049,
       "length": 8,
       "value": "\"h:mm a\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 2037,
+      "offset": 3126,
       "length": 10,
       "value": "\"HH:mm:ss\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 2085,
+      "offset": 3212,
       "length": 9,
       "value": "\"hh:mm a\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 2137,
+      "offset": 3288,
       "length": 4,
       "value": "\"MM\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 2177,
+      "offset": 3356,
       "length": 7,
       "value": "\"MMMMM\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
-      "offset": 2222,
+      "offset": 3435,
       "length": 3,
       "value": "\"E\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Extentions\/SwiftUI\/Helpers\/UIViewLifeCycleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 805,
+      "offset": 1469,
       "length": 11,
       "value": "\"KpeExtentionKit.Coordinator\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Helpers\/KpeAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 309,
+      "offset": 761,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Helpers\/KpeAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 417,
+      "offset": 869,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Helpers\/KpeAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 1701,
+      "offset": 2905,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Helpers\/KpeAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 1849,
+      "offset": 3053,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Helpers\/KpeAlert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4044,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Helpers\/KpeAlert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4156,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Helpers\/KpeAlert.swift",
       "kind": "StringLiteral",
-      "offset": 2719,
+      "offset": 4223,
       "length": 4,
       "value": "\"Ok\""
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Helpers\/KpeAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 3196,
+      "offset": 4857,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Helpers\/KpeAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 3370,
+      "offset": 5031,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Helpers\/KpeAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 3544,
+      "offset": 5205,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeExtentionKit\/KpeExtentionKit\/Helpers\/KpeAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 4671,
+      "offset": 6537,
       "length": 2,
       "value": "18"
     }

@@ -3,7 +3,6 @@
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name KpeAPIHelper
 import Foundation
 @_exported import KpeAPIHelper
-import OSLog
 import Swift
 import _Concurrency
 import _StringProcessing

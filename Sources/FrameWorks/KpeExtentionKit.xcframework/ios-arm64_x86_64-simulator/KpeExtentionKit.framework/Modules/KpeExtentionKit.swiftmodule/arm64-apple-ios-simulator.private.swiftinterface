@@ -212,7 +212,8 @@ public enum HapticFeedback {
 }
 public enum KpeAlert {
   public static func getTopMostVc() -> UIKit.UIViewController?
-  public static func showAlert(title: Swift.String = Bundle.main.appName, msg: Swift.String? = nil, buttonText: Swift.String? = "Ok", complition: (() -> Swift.Void)? = nil)
+  public static func showAlert(title: Swift.String = Bundle.main.appName, titleFont: UIKit.UIFont = .systemFont(ofSize: 18.asDeviceWidth, weight: .semibold), msg: Swift.String? = nil, msgFont: UIKit.UIFont = .systemFont(ofSize: 13.asDeviceWidth, weight: .regular), options: Swift.String..., btnStyle: UIKit.UIAlertAction.Style..., completion: @escaping ((Swift.Int) -> Swift.Void))
+  public static func showAlert(title: Swift.String = Bundle.main.appName, titleFont: UIKit.UIFont = .systemFont(ofSize: 18.asDeviceWidth, weight: .semibold), msg: Swift.String? = nil, msgFont: UIKit.UIFont = .systemFont(ofSize: 13.asDeviceWidth, weight: .regular), buttonText: Swift.String? = "Ok", complition: (() -> Swift.Void)? = nil)
   public static func loadingAlert(title: Swift.String? = nil, font: UIKit.UIFont = .systemFont(ofSize: 18.asDeviceWidth, weight: .semibold)) -> UIKit.UIAlertController
   public static func gotoSettingAlert(msg: Swift.String)
   public static func shareApp(with appID: Swift.String)
@@ -233,8 +234,8 @@ extension UIKit.UIViewController {
 extension UIKit.UITableView {
   @_Concurrency.MainActor(unsafe) public func deque<Cell>() -> Cell where Cell : UIKit.UITableViewCell
   @_Concurrency.MainActor(unsafe) public func reload()
-  @_Concurrency.MainActor(unsafe) public func registerCell<Cell>(cell: Cell.Type) where Cell : UIKit.UICollectionViewCell
-  @_Concurrency.MainActor(unsafe) public func registerHeaderCell<Cell>(cell: Cell.Type) where Cell : UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) public func registerCell<Cell>(cell: Cell.Type) where Cell : UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) public func registerHeaderCell<Cell>(cell: Cell.Type) where Cell : UIKit.UITableViewHeaderFooterView
 }
 extension UIKit.UIStackView {
   @_Concurrency.MainActor(unsafe) public func addViews(views: [UIKit.UIView])

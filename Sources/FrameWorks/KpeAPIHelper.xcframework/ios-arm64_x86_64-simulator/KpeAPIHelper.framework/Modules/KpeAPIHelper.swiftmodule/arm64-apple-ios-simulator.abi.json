@@ -9,25 +9,12 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpeAPIHelper",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeAPIHelper"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "KpeAPIHelper",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "OSLog",
-        "printedName": "OSLog",
         "declKind": "Import",
         "moduleName": "KpeAPIHelper"
       },
@@ -289,40 +276,28 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpeAPIHelper",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeAPIHelper"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpeAPIHelper",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeAPIHelper"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpeAPIHelper",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeAPIHelper"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpeAPIHelper",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeAPIHelper"
       },
       {
         "kind": "TypeDecl",
@@ -580,10 +555,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpeAPIHelper",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeAPIHelper"
       },
       {
         "kind": "TypeDecl",
@@ -1246,10 +1218,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpeAPIHelper",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeAPIHelper"
       },
       {
         "kind": "TypeDecl",
@@ -1374,10 +1343,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpeAPIHelper",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeAPIHelper"
       },
       {
         "kind": "TypeDecl",
@@ -1413,7 +1379,8 @@
             "mangledName": "$s10Foundation4DataV12KpeAPIHelperE6append_8encodingySS_SSAAE8EncodingVtF",
             "moduleName": "KpeAPIHelper",
             "declAttributes": [
-              "Mutating"
+              "Mutating",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "Mutating"
@@ -1936,6 +1903,9 @@
             "usr": "s:SD12KpeAPIHelperSSRszrlE12asQueryParamSay10Foundation12URLQueryItemVGvp",
             "mangledName": "$sSD12KpeAPIHelperSSRszrlE12asQueryParamSay10Foundation12URLQueryItemVGvp",
             "moduleName": "KpeAPIHelper",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -2301,6 +2271,9 @@
             "usr": "s:10Foundation10URLRequestV12KpeAPIHelperE10curlStringSSvp",
             "mangledName": "$s10Foundation10URLRequestV12KpeAPIHelperE10curlStringSSvp",
             "moduleName": "KpeAPIHelper",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -2471,6 +2444,9 @@
             "usr": "s:SE12KpeAPIHelperE12asDictionarySDySSypGSgvp",
             "mangledName": "$sSE12KpeAPIHelperE12asDictionarySDySSypGSgvp",
             "moduleName": "KpeAPIHelper",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -2531,7 +2507,7 @@
     {
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeAPIHelper\/KpeAPIHelper\/Network\/Others\/MultipartRequest.swift",
       "kind": "StringLiteral",
-      "offset": 382,
+      "offset": 796,
       "length": 6,
       "value": "\"\r\n\""
     }

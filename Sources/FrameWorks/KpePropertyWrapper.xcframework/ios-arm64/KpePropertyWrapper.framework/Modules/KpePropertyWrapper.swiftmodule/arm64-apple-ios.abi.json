@@ -9,10 +9,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpePropertyWrapper",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpePropertyWrapper"
       },
       {
         "kind": "TypeDecl",
@@ -45,7 +42,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -180,7 +178,8 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<Service>",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           }
@@ -193,16 +192,7 @@
         "sugared_genericSig": "<Service>",
         "declAttributes": [
           "AccessControl",
-          "PropertyWrapper"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "KpePropertyWrapper",
-        "declAttributes": [
+          "PropertyWrapper",
           "RawDocComment"
         ]
       },
@@ -211,10 +201,14 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpePropertyWrapper",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpePropertyWrapper"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KpePropertyWrapper"
       },
       {
         "kind": "TypeDecl",
@@ -258,7 +252,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -278,7 +273,8 @@
             "mangledName": "$s18KpePropertyWrapper11UserDefaultV12wrappedValuexvp",
             "moduleName": "KpePropertyWrapper",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -370,7 +366,8 @@
             "mangledName": "$s18KpePropertyWrapper11UserDefaultV14projectedValueACyxGvp",
             "moduleName": "KpePropertyWrapper",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -420,7 +417,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -442,10 +440,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpePropertyWrapper",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpePropertyWrapper"
       },
       {
         "kind": "TypeDecl",
@@ -469,7 +464,8 @@
             "moduleName": "KpePropertyWrapper",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -588,7 +584,8 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<Service>",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           }
@@ -601,7 +598,8 @@
         "sugared_genericSig": "<Service>",
         "declAttributes": [
           "AccessControl",
-          "PropertyWrapper"
+          "PropertyWrapper",
+          "RawDocComment"
         ]
       },
       {
@@ -609,10 +607,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KpePropertyWrapper",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpePropertyWrapper"
       },
       {
         "kind": "TypeDecl",
@@ -726,7 +721,8 @@
             "mangledName": "$s18KpePropertyWrapper8ResolverC3KeyV",
             "moduleName": "KpePropertyWrapper",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "conformances": [
               {
@@ -766,7 +762,8 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -858,7 +855,8 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -915,7 +913,8 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -964,7 +963,8 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -974,7 +974,8 @@
         "mangledName": "$s18KpePropertyWrapper8ResolverC",
         "moduleName": "KpePropertyWrapper",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true
       }

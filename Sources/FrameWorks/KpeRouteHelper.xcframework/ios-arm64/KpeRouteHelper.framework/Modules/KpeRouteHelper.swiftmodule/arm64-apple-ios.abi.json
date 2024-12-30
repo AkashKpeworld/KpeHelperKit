@@ -9,10 +9,7 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "KpeRouteHelper",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeRouteHelper"
       },
       {
         "kind": "TypeDecl",
@@ -377,10 +374,7 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "KpeRouteHelper",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "KpeRouteHelper"
       },
       {
         "kind": "TypeDecl",
@@ -395,7 +389,10 @@
             "usr": "s:14KpeRouteHelper0B0P14ViewControllerQa",
             "mangledName": "$s14KpeRouteHelper0B0P14ViewControllerQa",
             "moduleName": "KpeRouteHelper",
-            "protocolReq": true
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -413,6 +410,9 @@
             "mangledName": "$s14KpeRouteHelper0B0P14viewController04ViewE0Qzvp",
             "moduleName": "KpeRouteHelper",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
