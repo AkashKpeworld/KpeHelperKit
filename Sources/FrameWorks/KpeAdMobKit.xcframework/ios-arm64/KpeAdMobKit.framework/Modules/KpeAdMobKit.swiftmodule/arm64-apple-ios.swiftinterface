@@ -1,12 +1,22 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name KpeAdMobKit
+import Foundation
 @_exported import GoogleMobileAds
 @_exported import KpeAdMobKit
 import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class SplashAppOpen : ObjectiveC.NSObject {
+  public static let shared: KpeAdMobKit.SplashAppOpen
+  final public func load(onLoad: @escaping () -> Swift.Void)
+  @objc deinit
+}
+extension KpeAdMobKit.SplashAppOpen : GoogleMobileAds.GADFullScreenContentDelegate {
+  @objc final public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+  @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ForegroundAppOpen : ObjectiveC.NSObject {
   public static let shared: KpeAdMobKit.ForegroundAppOpen
   final public func startAd()
@@ -17,3 +27,5 @@ extension KpeAdMobKit.ForegroundAppOpen : GoogleMobileAds.GADFullScreenContentDe
   @objc final public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
   @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
 }
+public var interAdCounter: Swift.Int
+public var nativAdCounter: Swift.Int
