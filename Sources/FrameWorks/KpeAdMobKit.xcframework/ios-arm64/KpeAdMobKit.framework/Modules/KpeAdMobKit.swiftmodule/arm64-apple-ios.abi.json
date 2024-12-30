@@ -11,7 +11,7 @@
         "declKind": "Import",
         "moduleName": "KpeAdMobKit",
         "declAttributes": [
-          "ImplementationOnly"
+          "Exported"
         ]
       },
       {
@@ -112,6 +112,72 @@
               "Final",
               "AccessControl"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ad",
+            "printedName": "ad(_:didFailToPresentFullScreenContentWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@KpeAdMobKit@objc(cs)ForegroundAppOpen(im)ad:didFailToPresentFullScreenContentWithError:",
+            "mangledName": "$s11KpeAdMobKit17ForegroundAppOpenC2ad_42didFailToPresentFullScreenContentWithErrorySo07GADFulln10PresentingB0_p_s0Q0_ptF",
+            "moduleName": "KpeAdMobKit",
+            "objc_name": "ad:didFailToPresentFullScreenContentWithError:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidDismissFullScreenContent",
+            "printedName": "adDidDismissFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@KpeAdMobKit@objc(cs)ForegroundAppOpen(im)adDidDismissFullScreenContent:",
+            "mangledName": "$s11KpeAdMobKit17ForegroundAppOpenC29adDidDismissFullScreenContentyySo07GADFulll10PresentingB0_pF",
+            "moduleName": "KpeAdMobKit",
+            "objc_name": "adDidDismissFullScreenContent:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
