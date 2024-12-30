@@ -10,9 +10,6 @@ let package = Package(
             name: "KpeHelperKit",
             targets: ["KpeAPIHelper", "KpeRouteHelper", "KpePropertyWrapper", "KpeExtentionKit", "KpeAdMobKit"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", .upToNextMajor(from: "11.13.0"))
-    ],
     targets: [
         .binaryTarget(
             name: "KpeAPIHelper",
