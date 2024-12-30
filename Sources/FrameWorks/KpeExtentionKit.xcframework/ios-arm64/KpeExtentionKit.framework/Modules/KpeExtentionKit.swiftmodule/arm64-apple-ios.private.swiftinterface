@@ -37,46 +37,6 @@ extension Swift.Dictionary {
 extension Swift.RandomAccessCollection {
   public func indexed() -> Swift.Array<(offset: Swift.Int, element: Self.Element)>
 }
-@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class GradientView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layerClass: Swift.AnyClass {
-    @objc get
-  }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class GradientButton : UIKit.UIButton {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layerClass: Swift.AnyClass {
-    @objc get
-  }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class GradientLable : UIKit.UILabel {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layerClass: Swift.AnyClass {
-    @objc get
-  }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public var text: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public var font: UIKit.UIFont! {
-    @objc get
-    @objc set
-  }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public var bounds: CoreFoundation.CGRect {
-    @objc get
-    @objc set
-  }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
 extension UIKit.UIApplication {
   @_Concurrency.MainActor(unsafe) public static var keyWindow: UIKit.UIWindow? {
     get
@@ -250,7 +210,7 @@ public enum HapticFeedback {
   case impact(style: UIKit.UIImpactFeedbackGenerator.FeedbackStyle)
   case notification(type: UIKit.UINotificationFeedbackGenerator.FeedbackType)
 }
-public enum AppAlert {
+public enum KpeAlert {
   public static func getTopMostVc() -> UIKit.UIViewController?
   public static func showAlert(title: Swift.String = Bundle.main.appName, msg: Swift.String? = nil, buttonText: Swift.String? = "Ok", complition: (() -> Swift.Void)? = nil)
   public static func loadingAlert(title: Swift.String? = nil, font: UIKit.UIFont = .systemFont(ofSize: 18.asDeviceWidth, weight: .semibold)) -> UIKit.UIAlertController
