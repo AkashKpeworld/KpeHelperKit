@@ -18,6 +18,103 @@
         "kind": "TypeDecl",
         "name": "ForegroundAppOpen",
         "printedName": "ForegroundAppOpen",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ForegroundAppOpen",
+                "printedName": "KpeAdMobKit.ForegroundAppOpen",
+                "usr": "c:@M@KpeAdMobKit@objc(cs)ForegroundAppOpen"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit17ForegroundAppOpenC6sharedACvpZ",
+            "mangledName": "$s11KpeAdMobKit17ForegroundAppOpenC6sharedACvpZ",
+            "moduleName": "KpeAdMobKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ForegroundAppOpen",
+                    "printedName": "KpeAdMobKit.ForegroundAppOpen",
+                    "usr": "c:@M@KpeAdMobKit@objc(cs)ForegroundAppOpen"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit17ForegroundAppOpenC6sharedACvgZ",
+                "mangledName": "$s11KpeAdMobKit17ForegroundAppOpenC6sharedACvgZ",
+                "moduleName": "KpeAdMobKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startAd",
+            "printedName": "startAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KpeAdMobKit17ForegroundAppOpenC05startB0yyF",
+            "mangledName": "$s11KpeAdMobKit17ForegroundAppOpenC05startB0yyF",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tryToPresentAd",
+            "printedName": "tryToPresentAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KpeAdMobKit17ForegroundAppOpenC012tryToPresentB0yyF",
+            "mangledName": "$s11KpeAdMobKit17ForegroundAppOpenC012tryToPresentB0yyF",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
         "declKind": "Class",
         "usr": "c:@M@KpeAdMobKit@objc(cs)ForegroundAppOpen",
         "mangledName": "$s11KpeAdMobKit17ForegroundAppOpenC",

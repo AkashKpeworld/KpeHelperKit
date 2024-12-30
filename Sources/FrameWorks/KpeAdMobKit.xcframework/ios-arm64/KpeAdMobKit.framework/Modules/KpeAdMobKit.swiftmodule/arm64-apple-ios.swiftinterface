@@ -7,5 +7,8 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ForegroundAppOpen : ObjectiveC.NSObject {
+  public static let shared: KpeAdMobKit.ForegroundAppOpen
+  final public func startAd()
+  final public func tryToPresentAd()
   @objc deinit
 }
