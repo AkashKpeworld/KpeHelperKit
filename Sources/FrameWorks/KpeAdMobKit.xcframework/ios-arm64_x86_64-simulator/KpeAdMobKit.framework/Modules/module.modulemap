@@ -1,0 +1,6 @@
+framework module KpeAdMobKit {
+  umbrella header "KpeAdMobKit.h"
+  export *
+
+  module * { export * }
+}
