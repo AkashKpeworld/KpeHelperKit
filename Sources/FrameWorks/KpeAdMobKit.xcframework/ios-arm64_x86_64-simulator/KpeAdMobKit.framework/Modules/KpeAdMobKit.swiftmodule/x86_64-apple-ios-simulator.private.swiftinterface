@@ -65,3 +65,7 @@ public var interShowCount: Swift.Int
 public var interAdCounter: Swift.Int
 public var nativAdCounter: Swift.Int
 public var isAdShow: Swift.Bool
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class NativeAdView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) final public func setAdView(_ view: GoogleMobileAds.GADNativeAd)
+  @objc deinit
+}
