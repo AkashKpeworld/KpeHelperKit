@@ -13,6 +13,10 @@ import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers final public class Native : ObjectiveC.NSObject {
   public static let shared: KpeAdMobKit.Native
   final public var didLoadAd: (() -> Swift.Void)?
+  final public var nativeShowCount: Swift.Int
+  final public var nativAdCounter: Swift.Int
+  final public var isAdShow: Swift.Bool
+  final public var nativeAdUnitID: Swift.String
   final public func getNextAd() -> GoogleMobileAds.GADNativeAd?
   final public func loadAd(didFail: (() -> Swift.Void)? = nil)
   @objc override dynamic public init()
@@ -33,6 +37,10 @@ extension KpeAdMobKit.Native : GoogleMobileAds.GADNativeAdLoaderDelegate {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class Inter : ObjectiveC.NSObject {
   public static let shared: KpeAdMobKit.Inter
+  final public var interShowCount: Swift.Int
+  final public var interAdCounter: Swift.Int
+  final public var isAdShow: Swift.Bool
+  final public var interAdUnitID: Swift.String
   final public func load(onLoad: (() -> Swift.Void)? = nil)
   final public func presentAd(onDismiss: @escaping () -> Swift.Void)
   @objc deinit
@@ -43,6 +51,8 @@ extension KpeAdMobKit.Inter : GoogleMobileAds.GADFullScreenContentDelegate {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class SplashAppOpen : ObjectiveC.NSObject {
   public static let shared: KpeAdMobKit.SplashAppOpen
+  final public var isAdShow: Swift.Bool
+  final public var appOpenAdUnitID: Swift.String
   final public func load(onLoad: @escaping () -> Swift.Void)
   @objc deinit
 }
@@ -52,6 +62,7 @@ extension KpeAdMobKit.SplashAppOpen : GoogleMobileAds.GADFullScreenContentDelega
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ForegroundAppOpen : ObjectiveC.NSObject {
   public static let shared: KpeAdMobKit.ForegroundAppOpen
+  final public var appOpenAdUnitID: Swift.String
   final public func startAd()
   final public func tryToPresentAd()
   @objc deinit
@@ -60,11 +71,6 @@ extension KpeAdMobKit.ForegroundAppOpen : GoogleMobileAds.GADFullScreenContentDe
   @objc final public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
   @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
 }
-public var native_show_count: Swift.Int
-public var interShowCount: Swift.Int
-public var interAdCounter: Swift.Int
-public var nativAdCounter: Swift.Int
-public var isAdShow: Swift.Bool
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class NativeAdView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) final public var headlineLblFont: UIKit.UIFont
   @_Concurrency.MainActor(unsafe) final public var headlineLblTextColor: UIKit.UIColor
