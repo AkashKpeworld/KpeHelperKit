@@ -66,6 +66,21 @@ public var interAdCounter: Swift.Int
 public var nativAdCounter: Swift.Int
 public var isAdShow: Swift.Bool
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class NativeAdView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) final public var headlineLblFont: UIKit.UIFont
+  @_Concurrency.MainActor(unsafe) final public var headlineLblTextColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) final public var bodyLblFont: UIKit.UIFont
+  @_Concurrency.MainActor(unsafe) final public var bodyLblTextColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) final public var adLblFont: UIKit.UIFont
+  @_Concurrency.MainActor(unsafe) final public var adLblTextColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) final public var adLblBgColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) final public var adLblBorderWidth: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) final public var adLblCornerRadius: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) final public var iconImgCornerRadius: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) final public var callToActionBtnFont: UIKit.UIFont
+  @_Concurrency.MainActor(unsafe) final public var callToActionBtnCornerRadius: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) final public var callToActionBtnStartColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) final public var callToActionBtnEndColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) final public var callToActionhorizontalMode: Swift.Bool
   @_Concurrency.MainActor(unsafe) final public func setAdView(_ view: GoogleMobileAds.GADNativeAd)
   @objc deinit
 }

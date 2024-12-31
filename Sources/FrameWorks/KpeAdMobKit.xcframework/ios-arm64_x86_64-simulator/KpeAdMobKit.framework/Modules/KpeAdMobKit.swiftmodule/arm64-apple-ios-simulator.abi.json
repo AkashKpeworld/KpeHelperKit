@@ -2000,6 +2000,1462 @@
         "printedName": "NativeAdView",
         "children": [
           {
+            "kind": "Var",
+            "name": "headlineLblFont",
+            "printedName": "headlineLblFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit06NativeB4ViewC15headlineLblFontSo6UIFontCvp",
+            "mangledName": "$s11KpeAdMobKit06NativeB4ViewC15headlineLblFontSo6UIFontCvp",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC15headlineLblFontSo6UIFontCvg",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC15headlineLblFontSo6UIFontCvg",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC15headlineLblFontSo6UIFontCvs",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC15headlineLblFontSo6UIFontCvs",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC15headlineLblFontSo6UIFontCvM",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC15headlineLblFontSo6UIFontCvM",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headlineLblTextColor",
+            "printedName": "headlineLblTextColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit06NativeB4ViewC20headlineLblTextColorSo7UIColorCvp",
+            "mangledName": "$s11KpeAdMobKit06NativeB4ViewC20headlineLblTextColorSo7UIColorCvp",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC20headlineLblTextColorSo7UIColorCvg",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC20headlineLblTextColorSo7UIColorCvg",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC20headlineLblTextColorSo7UIColorCvs",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC20headlineLblTextColorSo7UIColorCvs",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC20headlineLblTextColorSo7UIColorCvM",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC20headlineLblTextColorSo7UIColorCvM",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bodyLblFont",
+            "printedName": "bodyLblFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit06NativeB4ViewC11bodyLblFontSo6UIFontCvp",
+            "mangledName": "$s11KpeAdMobKit06NativeB4ViewC11bodyLblFontSo6UIFontCvp",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC11bodyLblFontSo6UIFontCvg",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC11bodyLblFontSo6UIFontCvg",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC11bodyLblFontSo6UIFontCvs",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC11bodyLblFontSo6UIFontCvs",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC11bodyLblFontSo6UIFontCvM",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC11bodyLblFontSo6UIFontCvM",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bodyLblTextColor",
+            "printedName": "bodyLblTextColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit06NativeB4ViewC16bodyLblTextColorSo7UIColorCvp",
+            "mangledName": "$s11KpeAdMobKit06NativeB4ViewC16bodyLblTextColorSo7UIColorCvp",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC16bodyLblTextColorSo7UIColorCvg",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC16bodyLblTextColorSo7UIColorCvg",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC16bodyLblTextColorSo7UIColorCvs",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC16bodyLblTextColorSo7UIColorCvs",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC16bodyLblTextColorSo7UIColorCvM",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC16bodyLblTextColorSo7UIColorCvM",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adLblFont",
+            "printedName": "adLblFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit06NativeB4ViewC9adLblFontSo6UIFontCvp",
+            "mangledName": "$s11KpeAdMobKit06NativeB4ViewC9adLblFontSo6UIFontCvp",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC9adLblFontSo6UIFontCvg",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC9adLblFontSo6UIFontCvg",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC9adLblFontSo6UIFontCvs",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC9adLblFontSo6UIFontCvs",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC9adLblFontSo6UIFontCvM",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC9adLblFontSo6UIFontCvM",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adLblTextColor",
+            "printedName": "adLblTextColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit06NativeB4ViewC14adLblTextColorSo7UIColorCvp",
+            "mangledName": "$s11KpeAdMobKit06NativeB4ViewC14adLblTextColorSo7UIColorCvp",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC14adLblTextColorSo7UIColorCvg",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC14adLblTextColorSo7UIColorCvg",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC14adLblTextColorSo7UIColorCvs",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC14adLblTextColorSo7UIColorCvs",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC14adLblTextColorSo7UIColorCvM",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC14adLblTextColorSo7UIColorCvM",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adLblBgColor",
+            "printedName": "adLblBgColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit06NativeB4ViewC12adLblBgColorSo7UIColorCvp",
+            "mangledName": "$s11KpeAdMobKit06NativeB4ViewC12adLblBgColorSo7UIColorCvp",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC12adLblBgColorSo7UIColorCvg",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC12adLblBgColorSo7UIColorCvg",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC12adLblBgColorSo7UIColorCvs",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC12adLblBgColorSo7UIColorCvs",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC12adLblBgColorSo7UIColorCvM",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC12adLblBgColorSo7UIColorCvM",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adLblBorderWidth",
+            "printedName": "adLblBorderWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit06NativeB4ViewC16adLblBorderWidth14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s11KpeAdMobKit06NativeB4ViewC16adLblBorderWidth12CoreGraphics7CGFloatVvp",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC16adLblBorderWidth14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC16adLblBorderWidth12CoreGraphics7CGFloatVvg",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC16adLblBorderWidth14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC16adLblBorderWidth12CoreGraphics7CGFloatVvs",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC16adLblBorderWidth14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC16adLblBorderWidth12CoreGraphics7CGFloatVvM",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adLblCornerRadius",
+            "printedName": "adLblCornerRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit06NativeB4ViewC17adLblCornerRadius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s11KpeAdMobKit06NativeB4ViewC17adLblCornerRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC17adLblCornerRadius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC17adLblCornerRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC17adLblCornerRadius14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC17adLblCornerRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC17adLblCornerRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC17adLblCornerRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "iconImgCornerRadius",
+            "printedName": "iconImgCornerRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit06NativeB4ViewC19iconImgCornerRadius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s11KpeAdMobKit06NativeB4ViewC19iconImgCornerRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC19iconImgCornerRadius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC19iconImgCornerRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC19iconImgCornerRadius14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC19iconImgCornerRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC19iconImgCornerRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC19iconImgCornerRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callToActionBtnFont",
+            "printedName": "callToActionBtnFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit06NativeB4ViewC19callToActionBtnFontSo6UIFontCvp",
+            "mangledName": "$s11KpeAdMobKit06NativeB4ViewC19callToActionBtnFontSo6UIFontCvp",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC19callToActionBtnFontSo6UIFontCvg",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC19callToActionBtnFontSo6UIFontCvg",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC19callToActionBtnFontSo6UIFontCvs",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC19callToActionBtnFontSo6UIFontCvs",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC19callToActionBtnFontSo6UIFontCvM",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC19callToActionBtnFontSo6UIFontCvM",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callToActionBtnCornerRadius",
+            "printedName": "callToActionBtnCornerRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit06NativeB4ViewC27callToActionBtnCornerRadius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s11KpeAdMobKit06NativeB4ViewC27callToActionBtnCornerRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC27callToActionBtnCornerRadius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC27callToActionBtnCornerRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC27callToActionBtnCornerRadius14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC27callToActionBtnCornerRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC27callToActionBtnCornerRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC27callToActionBtnCornerRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callToActionBtnStartColor",
+            "printedName": "callToActionBtnStartColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit06NativeB4ViewC25callToActionBtnStartColorSo7UIColorCvp",
+            "mangledName": "$s11KpeAdMobKit06NativeB4ViewC25callToActionBtnStartColorSo7UIColorCvp",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC25callToActionBtnStartColorSo7UIColorCvg",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC25callToActionBtnStartColorSo7UIColorCvg",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC25callToActionBtnStartColorSo7UIColorCvs",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC25callToActionBtnStartColorSo7UIColorCvs",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC25callToActionBtnStartColorSo7UIColorCvM",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC25callToActionBtnStartColorSo7UIColorCvM",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callToActionBtnEndColor",
+            "printedName": "callToActionBtnEndColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit06NativeB4ViewC23callToActionBtnEndColorSo7UIColorCvp",
+            "mangledName": "$s11KpeAdMobKit06NativeB4ViewC23callToActionBtnEndColorSo7UIColorCvp",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC23callToActionBtnEndColorSo7UIColorCvg",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC23callToActionBtnEndColorSo7UIColorCvg",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC23callToActionBtnEndColorSo7UIColorCvs",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC23callToActionBtnEndColorSo7UIColorCvs",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC23callToActionBtnEndColorSo7UIColorCvM",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC23callToActionBtnEndColorSo7UIColorCvM",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callToActionhorizontalMode",
+            "printedName": "callToActionhorizontalMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KpeAdMobKit06NativeB4ViewC26callToActionhorizontalModeSbvp",
+            "mangledName": "$s11KpeAdMobKit06NativeB4ViewC26callToActionhorizontalModeSbvp",
+            "moduleName": "KpeAdMobKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC26callToActionhorizontalModeSbvg",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC26callToActionhorizontalModeSbvg",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC26callToActionhorizontalModeSbvs",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC26callToActionhorizontalModeSbvs",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KpeAdMobKit06NativeB4ViewC26callToActionhorizontalModeSbvM",
+                "mangledName": "$s11KpeAdMobKit06NativeB4ViewC26callToActionhorizontalModeSbvM",
+                "moduleName": "KpeAdMobKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "setAdView",
             "printedName": "setAdView(_:)",
@@ -2205,6 +3661,69 @@
       "filePath": "\/Users\/dreamworld\/Desktop\/KpeAdMobKit\/KpeAdMobKit\/Helper\/Globals.swift",
       "kind": "BooleanLiteral",
       "offset": 251,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dreamworld\/Desktop\/KpeAdMobKit\/KpeAdMobKit\/NativeAd\/View\/Medium\/NativeAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 377,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/dreamworld\/Desktop\/KpeAdMobKit\/KpeAdMobKit\/NativeAd\/View\/Medium\/NativeAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 512,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/dreamworld\/Desktop\/KpeAdMobKit\/KpeAdMobKit\/NativeAd\/View\/Medium\/NativeAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 642,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/dreamworld\/Desktop\/KpeAdMobKit\/KpeAdMobKit\/NativeAd\/View\/Medium\/NativeAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 803,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/dreamworld\/Desktop\/KpeAdMobKit\/KpeAdMobKit\/NativeAd\/View\/Medium\/NativeAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 849,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/dreamworld\/Desktop\/KpeAdMobKit\/KpeAdMobKit\/NativeAd\/View\/Medium\/NativeAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 902,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/dreamworld\/Desktop\/KpeAdMobKit\/KpeAdMobKit\/NativeAd\/View\/Medium\/NativeAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 974,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/dreamworld\/Desktop\/KpeAdMobKit\/KpeAdMobKit\/NativeAd\/View\/Medium\/NativeAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1051,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/dreamworld\/Desktop\/KpeAdMobKit\/KpeAdMobKit\/NativeAd\/View\/Medium\/NativeAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1218,
       "length": 4,
       "value": "true"
     }
