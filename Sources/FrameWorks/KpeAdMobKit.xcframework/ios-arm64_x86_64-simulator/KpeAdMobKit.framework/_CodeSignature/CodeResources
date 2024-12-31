@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/KpeAdMobKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		NYmZ1YFKRrsgeqpZggzD5anjeq4=
+		i5b9ckshhNwpzcRHArY4r0NLQGI=
 		</data>
 		<key>Modules/KpeAdMobKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		wqoli494V7ViiF7r8qGS2G73ZnA=
+		GRgbtjOb78i2rgGqXcPOVZMaEAo=
 		</data>
 		<key>Modules/KpeAdMobKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/KpeAdMobKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		wqoli494V7ViiF7r8qGS2G73ZnA=
+		GRgbtjOb78i2rgGqXcPOVZMaEAo=
 		</data>
 		<key>Modules/KpeAdMobKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jWJrCz8ABhPlEhxsfYT2uCLAv7s=
+		66WIaYeucUfrftVTCRjtOksCv9Y=
 		</data>
 		<key>Modules/KpeAdMobKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		NYmZ1YFKRrsgeqpZggzD5anjeq4=
+		i5b9ckshhNwpzcRHArY4r0NLQGI=
 		</data>
 		<key>Modules/KpeAdMobKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Lz0C0UXfpjPetgc2DM3vtxqaT/Y=
+		HaMAO3D3AKq0G5XEji5gtY1W2QU=
 		</data>
 		<key>Modules/KpeAdMobKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,15 +46,19 @@
 		</data>
 		<key>Modules/KpeAdMobKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Lz0C0UXfpjPetgc2DM3vtxqaT/Y=
+		HaMAO3D3AKq0G5XEji5gtY1W2QU=
 		</data>
 		<key>Modules/KpeAdMobKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		waO0Np8CVUUsFIddxWMPkjvOPAU=
+		SCKeAAR1a655MSpAP4mcL7yyiHs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		WZlNumzE+hqIx23ARKsJBpACj0w=
+		</data>
+		<key>NativAdView.nib</key>
+		<data>
+		ZL57WOSQP2pOjpZVfcuDnp/aR5A=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -70,14 +74,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vRGTudGxcn1IC6Qy+RxpuflB3ZCHTv5qIovqcqeEzuk=
+			t9dLPDqXvFWM4k/oZQXM75Ns12PBAHkvurtGzZsl99E=
 			</data>
 		</dict>
 		<key>Modules/KpeAdMobKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			14rFeGFOFVgJJE3/dGqR5AmEwS/no22VEb5xF5tffes=
+			WELfR+KpPQMRpxiAusJxgMZcqQtYUGIiOpoCiuWb+Lk=
 			</data>
 		</dict>
 		<key>Modules/KpeAdMobKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +95,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			14rFeGFOFVgJJE3/dGqR5AmEwS/no22VEb5xF5tffes=
+			WELfR+KpPQMRpxiAusJxgMZcqQtYUGIiOpoCiuWb+Lk=
 			</data>
 		</dict>
 		<key>Modules/KpeAdMobKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y92xnT08QtbwcEW/GhRazEzP76jaZVtV/pIhVbSF6C4=
+			D6OqFPh8O/P5wiRffkKBIemybWH9iDPDSbIQ+eibML4=
 			</data>
 		</dict>
 		<key>Modules/KpeAdMobKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vRGTudGxcn1IC6Qy+RxpuflB3ZCHTv5qIovqcqeEzuk=
+			t9dLPDqXvFWM4k/oZQXM75Ns12PBAHkvurtGzZsl99E=
 			</data>
 		</dict>
 		<key>Modules/KpeAdMobKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uqdnLXmVHFbz4kVakvX7IOGEwk5TR9XbozuJmgCG8Bo=
+			w7vIKCml4EB/iKQTn0HyXMwaZNMAi2AJ/2hPcs4iiKQ=
 			</data>
 		</dict>
 		<key>Modules/KpeAdMobKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +130,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uqdnLXmVHFbz4kVakvX7IOGEwk5TR9XbozuJmgCG8Bo=
+			w7vIKCml4EB/iKQTn0HyXMwaZNMAi2AJ/2hPcs4iiKQ=
 			</data>
 		</dict>
 		<key>Modules/KpeAdMobKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yVNj49JIFefSC+Yxt+n9PjOAnQjPrg+vKHocBzjs1bY=
+			COfzjS1QblWjFhgfLAP3pySMb4ThdQoLyc1gPQU4W7I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -141,6 +145,13 @@
 			<key>hash2</key>
 			<data>
 			HqTr/2dtBDQeumzYJ+qi6YEOgZOpqRYm74szqfHIj2g=
+			</data>
+		</dict>
+		<key>NativAdView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KZHuFigx184CFjUlMVJUxnGXBMm5zvuPvdNVzXwejHo=
 			</data>
 		</dict>
 	</dict>

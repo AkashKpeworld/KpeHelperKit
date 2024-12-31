@@ -5,9 +5,32 @@ import Foundation
 @_exported import GoogleMobileAds
 @_exported import KpeAdMobKit
 import Swift
+import SwiftUI
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers final public class Native : ObjectiveC.NSObject {
+  public static let shared: KpeAdMobKit.Native
+  final public var didLoadAd: (() -> Swift.Void)?
+  final public func getNextAd() -> GoogleMobileAds.GADNativeAd?
+  final public func loadAd(didFail: (() -> Swift.Void)? = nil)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension KpeAdMobKit.Native : GoogleMobileAds.GADNativeAdLoaderDelegate {
+  @objc final public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didReceive nativeAd: GoogleMobileAds.GADNativeAd)
+  @objc final public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didFailToReceiveAdWithError error: any Swift.Error)
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class GradientButton : UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layerClass: Swift.AnyClass {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class Inter : ObjectiveC.NSObject {
   public static let shared: KpeAdMobKit.Inter
   final public func load(onLoad: (() -> Swift.Void)? = nil)
@@ -37,6 +60,7 @@ extension KpeAdMobKit.ForegroundAppOpen : GoogleMobileAds.GADFullScreenContentDe
   @objc final public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
   @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
 }
+public var native_show_count: Swift.Int
 public var interShowCount: Swift.Int
 public var interAdCounter: Swift.Int
 public var nativAdCounter: Swift.Int
