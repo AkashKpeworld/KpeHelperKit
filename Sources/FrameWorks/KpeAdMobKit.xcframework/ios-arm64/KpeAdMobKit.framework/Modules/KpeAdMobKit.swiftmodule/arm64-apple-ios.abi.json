@@ -246,10 +246,7 @@
         "name": "GoogleMobileAds",
         "printedName": "GoogleMobileAds",
         "declKind": "Import",
-        "moduleName": "KpeAdMobKit",
-        "declAttributes": [
-          "Exported"
-        ]
+        "moduleName": "KpeAdMobKit"
       },
       {
         "kind": "TypeDecl",
