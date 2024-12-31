@@ -8,7 +8,13 @@ let package = Package(
     products: [
         .library(
             name: "KpeHelperKit",
-            targets: ["KpeAPIHelper", "KpeRouteHelper", "KpePropertyWrapper", "KpeExtentionKit", "KpeAdMobKit"]),
+            targets: ["KpeAPIHelper", "KpeRouteHelper", "KpePropertyWrapper", "KpeExtentionKit", "KpeAdMobKit", "KpeAdMobKitTarget"]),
+    ],
+    dependencies: [
+        .package(
+            url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
+            .upToNextMajor(from: "11.13.0")
+        )
     ],
     targets: [
         .binaryTarget(
@@ -26,6 +32,14 @@ let package = Package(
         .binaryTarget(
             name: "KpeExtentionKit",
             path: "Sources/FrameWorks/KpeExtentionKit.xcframework"
+        ),
+        .target(
+            name: "KpeAdMobKitTarget",
+            dependencies: [
+                .target(name: "KpeAdMobKit"),
+                .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
+            ],
+            path: "KpeAdMobKitTarget"
         ),
         .binaryTarget(
             name: "KpeAdMobKit",
